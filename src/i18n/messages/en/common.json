@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Thep Xanh Nam Dinh FC",
+    "description": "Thep Xanh Nam Dinh FC's website"
+  },
+  "site": {
+    "name": "Thep Xanh Nam Dinh FC",
+    "shortName": "TXND FC"
+  },
+  "nav": {
+    "home": "Home",
+    "matches": "Matches",
+    "squad": "Squad",
+    "standings": "Standings",
+    "news": "News",
+    "club": "Club",
+    "stadium": "Stadium",
+    "history": "History"
+  },
+  "footer": {
+    "clubName": "Thep Xanh Nam Dinh FC",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contactUs": "Contact Us",
+    "sponsors": "Sponsors",
+    "copyright": "This website is made by fans, non-profit and with no commercial purpose."
+  },
+  "common": {
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "backToHome": "Back to Home",
+    "search": "Search",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "error404": "Page Not Found",
+    "error404Desc": "The page you are looking for does not exist or has been moved."
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English"
+  }
+}

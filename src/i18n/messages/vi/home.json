@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "headline": "NIỀM TỰ HÀO THÀNH NAM",
+    "subheadline": "V.League 2026 — Sân Thiên Trường",
+    "cta": "Mua vé ngay"
+  },
+  "matchCenter": {
+    "title": "Trung tâm trận đấu",
+    "nextMatch": "Trận tiếp theo",
+    "latestResult": "Kết quả gần nhất",
+    "vs": "vs",
+    "ft": "KT",
+    "upcoming": "SẮP DIỄN RA",
+    "live": "TRỰC TIẾP",
+    "buyTickets": "Mua vé",
+    "matchDetails": "Chi tiết"
+  },
+  "standings": {
+    "title": "Bảng xếp hạng",
+    "subtitle": "V.League 1 2026",
+    "pos": "#",
+    "team": "Đội",
+    "p": "Tr",
+    "w": "T",
+    "d": "H",
+    "l": "B",
+    "gd": "HS",
+    "pts": "Đ"
+  },
+  "news": {
+    "title": "Tin tức",
+    "subtitle": "Tin mới nhất từ CLB"
+  }
+}

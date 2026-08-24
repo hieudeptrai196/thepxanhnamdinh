@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "headline": "THE PRIDE OF THANH NAM",
+    "subheadline": "V.League 2026 — Thien Truong Stadium",
+    "cta": "Buy tickets"
+  },
+  "matchCenter": {
+    "title": "Match Center",
+    "nextMatch": "Next Match",
+    "latestResult": "Latest Result",
+    "vs": "vs",
+    "ft": "FT",
+    "upcoming": "UPCOMING",
+    "live": "LIVE",
+    "buyTickets": "Buy Tickets",
+    "matchDetails": "Details"
+  },
+  "standings": {
+    "title": "Standings",
+    "subtitle": "V.League 1 2026",
+    "pos": "#",
+    "team": "Team",
+    "p": "P",
+    "w": "W",
+    "d": "D",
+    "l": "L",
+    "gd": "GD",
+    "pts": "Pts"
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "Latest from the Club"
+  }
+}

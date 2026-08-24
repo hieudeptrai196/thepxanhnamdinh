@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════
+   THÉP XANH NAM ĐỊNH FC — DESIGN TOKENS
+   Matte Sports Editorial System
+   ═══════════════════════════════════════ */
+
+:root {
+  /* Colors — Brand */
+  --color-club-blue: #009DDA;
+  --color-club-blue-hover: #0088BF;
+  --color-club-blue-active: #007AA8;
+  --color-club-blue-8: rgba(0, 157, 218, 0.08);
+  --color-club-blue-15: rgba(0, 157, 218, 0.15);
+  --color-dark-navy: #071C2C;
+  --color-charcoal: #17232C;
+  --color-off-white: #F3F3EF;
+  --color-light-gray: #E7EBEC;
+  --color-white: #FFFFFF;
+  --color-gold: #C3A044;
+
+  /* Colors — Functional */
+  --color-live-red: #D42B2B;
+  --color-win-green: #2D8A4E;
+  --color-draw-gray: #8C9196;
+
+  /* Colors — Text */
+  --color-body-text: #1A2530;
+  --color-secondary-text: #5C6970;
+  --color-disabled-text: #9CA5AB;
+
+  /* Typography — Scale */
+  --text-hero: clamp(2rem, 6vw, 4.5rem);
+  --text-section: clamp(1.5rem, 4vw, 2.5rem);
+  --text-card-title: 1.25rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75rem;
+  --text-number-display: clamp(4rem, 10vw, 12rem);
+
+  /* Typography — Line Heights */
+  --leading-tight: 1.1;
+  --leading-heading: 1.2;
+  --leading-body: 1.65;
+
+  /* Typography — Letter Spacing */
+  --tracking-display: 0.02em;
+  --tracking-label: 0.05em;
+
+  /* Spacing — 8px Base */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+  --space-10: 5rem;
+
+  /* Spacing — Section */
+  --section-gap: 5rem;
+
+  /* Radius — Sharp, Not Bubbly */
+  --radius-small: 4px;
+  --radius-default: 6px;
+  --radius-badge: 4px;
+  --radius-max: 10px;
+
+  /* Borders */
+  --border-light: 1px solid #E7EBEC;
+  --border-dark: 1px solid rgba(255, 255, 255, 0.08);
+  --border-divider-light: 1px solid #E7EBEC;
+  --border-divider-dark: 1px solid rgba(255, 255, 255, 0.1);
+
+  /* Shadows — Minimal */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-dropdown: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+  /* Transitions — Mechanical, Not Springy */
+  --ease-default: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-gate: cubic-bezier(0.65, 0, 0.35, 1);
+  --transition-hover: 150ms var(--ease-default);
+  --transition-enter: 300ms ease-out;
+  --transition-exit: 200ms ease-in;
+
+  /* Layout */
+  --max-width: 1400px;
+  --grid-gutter: 24px;
+  --reading-width: 52rem;
+
+  /* Image Treatment */
+  --image-overlay-dark: linear-gradient(to top, rgba(7,28,44,0.85), rgba(7,28,44,0.3));
+
+  /* Semantic mappings — Light mode */
+  --bg-primary: var(--color-off-white);
+  --bg-secondary: var(--color-white);
+  --bg-inverse: var(--color-dark-navy);
+  --text-primary: var(--color-body-text);
+  --text-secondary: var(--color-secondary-text);
+  --text-disabled: var(--color-disabled-text);
+  --text-inverse: var(--color-white);
+  --border-color: var(--color-light-gray);
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --bg-primary: var(--color-dark-navy);
+  --bg-secondary: var(--color-charcoal);
+  --bg-inverse: var(--color-off-white);
+  --text-primary: #DEE3E6;
+  --text-secondary: #9CA5AB;
+  --text-disabled: #5C6970;
+  --text-inverse: var(--color-dark-navy);
+  --border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Tailwind theme extension */
+@theme inline {
+  /* Colors */
+  --color-club-blue: var(--color-club-blue);
+  --color-club-blue-hover: var(--color-club-blue-hover);
+  --color-club-blue-active: var(--color-club-blue-active);
+  --color-dark-navy: var(--color-dark-navy);
+  --color-charcoal: var(--color-charcoal);
+  --color-off-white: var(--color-off-white);
+  --color-light-gray: var(--color-light-gray);
+  --color-gold: var(--color-gold);
+  --color-live-red: var(--color-live-red);
+  --color-win-green: var(--color-win-green);
+  --color-draw-gray: var(--color-draw-gray);
+  --color-body-text: var(--color-body-text);
+  --color-secondary-text: var(--color-secondary-text);
+  --color-disabled-text: var(--color-disabled-text);
+
+  /* Semantic colors */
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-inverse: var(--bg-inverse);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-inverse: var(--text-inverse);
+
+  /* Fonts */
+  --font-display: var(--font-display);
+  --font-heading: var(--font-barlow);
+  --font-body: var(--font-barlow);
+  --font-mono: var(--font-mono);
+
+  /* Border radius */
+  --radius-sm: var(--radius-small);
+  --radius-DEFAULT: var(--radius-default);
+  --radius-badge: var(--radius-badge);
+  --radius-max: var(--radius-max);
+
+  /* Shadows */
+  --shadow-card: var(--shadow-card);
+  --shadow-dropdown: var(--shadow-dropdown);
+  --shadow-modal: var(--shadow-modal);
+}
+
+/* Base styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body), sans-serif;
+  line-height: var(--leading-body);
+}
+
+/* Section gap responsive */
+@media (max-width: 768px) {
+  :root {
+    --section-gap: 3rem;
+    --grid-gutter: 16px;
+  }
+}
+
+/* Skeleton shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-light-gray) 25%,
+    #f0f2f3 50%,
+    var(--color-light-gray) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Scroll reveal */
+.scroll-reveal [data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.scroll-reveal [data-reveal].revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Loading screen film grain */
+.loading-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+}

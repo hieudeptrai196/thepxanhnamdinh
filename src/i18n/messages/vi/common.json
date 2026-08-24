@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Thép Xanh Nam Định FC",
+    "description": "Website của CLB Thép Xanh Nam Định FC"
+  },
+  "site": {
+    "name": "Thép Xanh Nam Định FC",
+    "shortName": "TXNĐ FC"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "matches": "Trận đấu",
+    "squad": "Đội hình",
+    "standings": "Bảng xếp hạng",
+    "news": "Tin tức",
+    "club": "Câu lạc bộ",
+    "stadium": "Sân vận động",
+    "history": "Lịch sử"
+  },
+  "footer": {
+    "clubName": "Thép Xanh Nam Định FC",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsOfService": "Điều khoản dịch vụ",
+    "contactUs": "Liên hệ",
+    "sponsors": "Nhà tài trợ",
+    "copyright": "Trang web này được làm bởi người hâm mộ, phi lợi nhuận và không có mục đích thương mại."
+  },
+  "common": {
+    "viewAll": "Xem tất cả",
+    "readMore": "Đọc thêm",
+    "backToHome": "Về trang chủ",
+    "search": "Tìm kiếm",
+    "loading": "Đang tải...",
+    "noResults": "Không có kết quả",
+    "error404": "Trang không tìm thấy",
+    "error404Desc": "Trang bạn tìm không tồn tại hoặc đã được di chuyển."
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English"
+  }
+}
