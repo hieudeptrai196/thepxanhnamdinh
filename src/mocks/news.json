@@ -1,0 +1,102 @@
+[
+  {
+    "id": "n-001",
+    "slug": "txnd-thang-dam-cahn-3-1",
+    "title": "Thép Xanh Nam Định thắng đậm Công An Hà Nội 3-1 trên sân khách",
+    "excerpt": "Với hat-trick của Rafaelson, TXNĐ giành chiến thắng ấn tượng trước CAHN tại vòng 20 V.League 1.",
+    "image": "/images/news/match-victory.jpg",
+    "category": "first-team",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-08-23T21:30:00Z"
+  },
+  {
+    "id": "n-002",
+    "slug": "rafaelson-gianh-vua-pha-luoi",
+    "title": "Rafaelson dẫn đầu danh sách Vua phá lưới V.League 2026",
+    "excerpt": "Tiền đạo người Brazil tiếp tục phong độ ấn tượng với 18 bàn thắng sau 20 vòng đấu.",
+    "image": "/images/news/training.jpg",
+    "category": "v-league",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-08-24T10:00:00Z"
+  },
+  {
+    "id": "n-003",
+    "slug": "hop-bao-truoc-tran-hagl",
+    "title": "HLV trưởng: 'Chúng tôi sẵn sàng cho trận đại chiến với HAGL'",
+    "excerpt": "Trong buổi họp báo trước trận, HLV trưởng khẳng định đội hình đầy đủ và tinh thần thi đấu cao nhất.",
+    "image": "/images/news/training.jpg",
+    "category": "interview",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-08-29T14:00:00Z"
+  },
+  {
+    "id": "n-004",
+    "slug": "chuyen-nhuong-mua-dong-2026",
+    "title": "TXNĐ chiêu mộ thành công tiền vệ Masatoshi Ishii từ J-League",
+    "excerpt": "Tiền vệ người Nhật Bản ký hợp đồng 2 năm, tăng cường sức mạnh cho tuyến giữa.",
+    "image": "/images/news/transfer.jpg",
+    "category": "club",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-07-01T09:00:00Z"
+  },
+  {
+    "id": "n-005",
+    "slug": "san-thien-truong-nang-cap",
+    "title": "Sân Thiên Trường nâng cấp hệ thống chiếu sáng đạt chuẩn AFC",
+    "excerpt": "Hệ thống đèn LED mới đáp ứng tiêu chuẩn AFC Champions League, sẵn sàng cho các trận đấu quốc tế.",
+    "image": "/images/news/supporters.jpg",
+    "category": "club",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-06-15T08:00:00Z"
+  },
+  {
+    "id": "n-006",
+    "slug": "txnd-vao-ban-ket-cup-quoc-gia",
+    "title": "Thép Xanh Nam Định vào bán kết Cúp Quốc gia sau chiến thắng trước CAHN",
+    "excerpt": "Bàn thắng duy nhất của Nguyễn Văn Toàn giúp TXNĐ giành vé vào bán kết.",
+    "image": "/images/news/match-victory.jpg",
+    "category": "first-team",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-07-06T21:00:00Z"
+  },
+  {
+    "id": "n-007",
+    "slug": "cdv-thien-truong-lap-ky-luc",
+    "title": "Sân Thiên Trường lập kỷ lục khán giả mùa giải 2026",
+    "excerpt": "Hơn 30.000 CĐV có mặt tại sân Thiên Trường trong trận đấu vòng 18, phá kỷ lục mùa giải.",
+    "image": "/images/news/supporters.jpg",
+    "category": "club",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-08-02T22:00:00Z"
+  },
+  {
+    "id": "n-008",
+    "slug": "doi-tre-txnd-vo-dich-u19",
+    "title": "Đội trẻ TXNĐ vô địch giải U19 Quốc gia 2026",
+    "excerpt": "Lứa cầu thủ trẻ tài năng khẳng định chất lượng đào tạo của CLB Thép Xanh Nam Định.",
+    "image": "/images/news/training.jpg",
+    "category": "club",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-07-20T16:00:00Z"
+  },
+  {
+    "id": "n-009",
+    "slug": "vleague-vong-19-tong-hop",
+    "title": "Tổng hợp vòng 19 V.League: TXNĐ củng cố ngôi đầu",
+    "excerpt": "Chiến thắng 2-0 trước SLNA giúp TXNĐ nới rộng khoảng cách với đội nhì bảng lên 4 điểm.",
+    "image": "/images/news/match-victory.jpg",
+    "category": "v-league",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-08-09T22:30:00Z"
+  },
+  {
+    "id": "n-010",
+    "slug": "nguyen-hai-long-phong-van",
+    "title": "Nguyễn Hai Long: 'Mục tiêu của tôi là khoác áo ĐTQG'",
+    "excerpt": "Tiền vệ trẻ chia sẻ về hành trình phát triển và khát vọng được gọi vào đội tuyển Việt Nam.",
+    "image": "/images/news/training.jpg",
+    "category": "interview",
+    "author": "Ban Truyền thông CLB",
+    "publishedAt": "2026-08-15T11:00:00Z"
+  }
+]

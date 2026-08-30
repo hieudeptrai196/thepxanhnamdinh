@@ -16,6 +16,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...(await import(`./messages/${locale}/matches.json`)).default,
       ...(await import(`./messages/${locale}/squad.json`)).default,
       ...(await import(`./messages/${locale}/standings.json`)).default,
+      ...(await import(`./messages/${locale}/news.json`)).default,
     },
   };
 });
