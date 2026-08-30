@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
@@ -14,30 +14,43 @@ type Props = {
 export function MobileMenu({ isOpen, onClose }: Props) {
   const t = useTranslations('nav');
   const pathname = usePathname();
+  const [visible, setVisible] = useState(false);
+  const [animating, setAnimating] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
+      setVisible(true);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => setAnimating(true));
+      });
       document.body.style.overflow = 'hidden';
     } else {
+      setAnimating(false);
+      const timer = setTimeout(() => setVisible(false), 300);
       document.body.style.overflow = '';
+      return () => clearTimeout(timer);
     }
     return () => {
       document.body.style.overflow = '';
     };
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  if (!visible) return null;
 
   return (
     <div className="fixed inset-0 z-50">
       <div
-        className="absolute inset-0 bg-dark-navy/80"
+        className="absolute inset-0 bg-dark-navy/80 transition-opacity duration-300"
+        style={{ opacity: animating ? 1 : 0 }}
         onClick={onClose}
       />
-      <nav className="absolute top-0 right-0 h-full w-72 bg-dark-navy p-6 flex flex-col">
+      <nav
+        className="absolute top-0 left-0 h-full w-72 bg-dark-navy p-6 flex flex-col transition-transform duration-300 ease-out"
+        style={{ transform: animating ? 'translateX(0)' : 'translateX(-100%)' }}
+      >
         <button
           onClick={onClose}
-          className="self-end p-2 text-white/70 hover:text-white transition-colors duration-150"
+          className="self-start p-2 text-white/70 hover:text-white transition-colors duration-150"
           aria-label="Close menu"
         >
           <X size={24} />

@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Locale } from '@/i18n/config';
-import { bebasNeue, barlow, jetbrainsMono } from '@/lib/fonts';
+import { oswald, barlow, jetbrainsMono } from '@/lib/fonts';
 import { ThemeProvider } from '@/shared/providers/ThemeProvider';
 import { Header } from '@/shared/components/layout/Header';
 import { Footer } from '@/shared/components/layout/Footer';
@@ -64,7 +64,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${bebasNeue.variable} ${barlow.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${oswald.variable} ${barlow.variable} ${jetbrainsMono.variable} h-full antialiased`}
       data-theme={theme}
       suppressHydrationWarning
     >

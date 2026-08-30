@@ -18,12 +18,12 @@ export function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 bg-dark-navy">
+      <header className="sticky top-0 z-40 bg-bg-secondary shadow-card">
         <div className="mx-auto flex h-16 max-w-[var(--max-width)] items-center justify-between px-4 lg:px-10">
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileMenuOpen(true)}
-            className="p-2 text-white/70 hover:text-white transition-colors duration-150 lg:hidden"
+            className="p-2 text-text-secondary hover:text-text-primary transition-colors duration-150 lg:hidden"
             aria-label="Open menu"
           >
             <Menu size={22} />
@@ -42,10 +42,10 @@ export function Header() {
               className="size-10"
               priority
             />
-            <span className="hidden lg:block font-heading font-bold text-base tracking-wide text-white uppercase">
+            <span className="hidden lg:block font-heading font-bold text-base tracking-wide text-text-primary uppercase">
               {tSite('name')}
             </span>
-            <span className="hidden sm:block lg:hidden font-heading font-bold text-base tracking-wide text-white uppercase">
+            <span className="hidden sm:block lg:hidden font-heading font-bold text-base tracking-wide text-text-primary uppercase">
               {tSite('shortName')}
             </span>
           </Link>
@@ -64,8 +64,8 @@ export function Header() {
                   href={item.href}
                   className={`px-3 py-2 font-heading font-semibold uppercase text-sm tracking-wide transition-colors duration-150 ${
                     isActive
-                      ? 'text-white border-b-2 border-club-blue'
-                      : 'text-white/70 hover:text-white'
+                      ? 'text-club-blue border-b-2 border-club-blue'
+                      : 'text-text-secondary hover:text-text-primary'
                   }`}
                 >
                   {t(item.key)}
@@ -77,7 +77,7 @@ export function Header() {
           {/* Right actions */}
           <div className="flex items-center gap-1">
             <button
-              className="p-2 text-white/70 hover:text-white transition-colors duration-150"
+              className="p-2 text-text-secondary hover:text-text-primary transition-colors duration-150"
               aria-label="Search"
             >
               <Search size={18} />

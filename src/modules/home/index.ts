@@ -2,4 +2,8 @@ export { HeroSection } from './components/HeroSection';
 export { MatchCenterSection } from './components/MatchCenterSection';
 export { StandingsSection } from './components/StandingsSection';
 export { NewsSection } from './components/NewsSection';
+export { HeroSkeleton } from './components/HeroSkeleton';
+export { MatchCenterSkeleton } from './components/MatchCenterSkeleton';
+export { StandingsSkeleton } from './components/StandingsSkeleton';
+export { NewsSkeleton } from './components/NewsSkeleton';
 export { getHomeData } from './data';

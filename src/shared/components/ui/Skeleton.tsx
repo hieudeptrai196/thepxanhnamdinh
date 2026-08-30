@@ -2,14 +2,18 @@ import { cn } from '@/lib/cn';
 
 type Props = {
   className?: string;
+  variant?: 'light' | 'dark';
 };
 
-export function Skeleton({ className }: Props) {
+export function Skeleton({ className, variant = 'light' }: Props) {
   return (
     <div
       className={cn(
-        'bg-light-gray rounded-[var(--radius-default)] animate-shimmer',
-        className
+        'rounded-[var(--radius-default)]',
+        variant === 'dark'
+          ? 'animate-shimmer-dark'
+          : 'bg-light-gray animate-shimmer',
+        className,
       )}
     />
   );
