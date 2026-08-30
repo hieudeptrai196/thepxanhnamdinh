@@ -8,6 +8,34 @@
 
 ---
 
+## Tiến độ tổng quan (cập nhật 2026-08-30)
+
+| Phase | Nội dung | Trạng thái |
+|-------|----------|------------|
+| **0** | Project Setup & Design System | ✅ Hoàn thành |
+| **1A** | Loading Screen | ✅ Hoàn thành |
+| **1B** | Homepage | ✅ Hoàn thành |
+| **2A** | Club Overview | ✅ Hoàn thành *(nâng cấp: parallax, 3D tilt, timeline drawing, Ken Burns, FB embed, Google Maps)* |
+| **2B** | Squad Page | ⚡ ~80% *(thiếu group by position, click → player profile)* |
+| **2C** | Player Profile | ❌ Chưa làm |
+| **3A** | Fixtures (Matches) | ⚡ ~70% *(dùng card thay row, thiếu click → detail)* |
+| **3B** | Results Archive | ⚡ Gộp vào 3A *(matches page có filter finished)* |
+| **3C** | Match Detail | ❌ Chưa làm |
+| **3D** | Standings | ✅ Hoàn thành |
+| **4A** | News Center | ⚡ ~80% *(simplified — không có search, category filter, pagination)* |
+| **4B** | News Detail | ❌ Chưa làm |
+| **5** | Stadium & History | ❌ Chưa làm |
+| **6** | 404 + SEO + Polish | ❌ Chưa làm |
+| **7** | WebSocket Live Match | ❌ Chưa làm |
+| **8** | API Contract | ✅ Đã ghi trong PLAN |
+
+### Shared components đã build:
+- `ContentLoader` — skeleton loading dùng chung (shimmer animation, 600ms delay)
+- `useScrollReveal` — IntersectionObserver hook
+- `CountUp` — animated number counter
+
+---
+
 ## Tổng quan Screens (26 screens từ Stitch)
 
 | # | Screen | Desktop | Mobile | Route |
@@ -234,15 +262,15 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/loading-screen/`
 **Tham chiếu DESIGN.md:** Section 9 — Loading Screen
 
-- [ ] **1A.1** Component `LoadingScreen`: full-viewport overlay
-- [ ] **1A.2** WebGL/Canvas shader effect (từ Stitch "Shader" screen)
-- [ ] **1A.3** Stadium gate animation: 2 panel (top + bottom) Dark Navy, film grain 3%
-- [ ] **1A.4** Club crest hiện giữa khi 2 panel gặp nhau
-- [ ] **1A.5** 3 championship stars vàng (#C3A044) phía trên crest
-- [ ] **1A.6** Progress bar: 2px Club Blue, fill left→right
-- [ ] **1A.7** Panels tách ra reveal homepage — easing `cubic-bezier(0.65, 0, 0.35, 1)` 800ms
-- [ ] **1A.8** Tổng thời gian ~2.5-3s, chỉ hiện lần đầu truy cập (sessionStorage flag)
-- [ ] **1A.9** i18n: không cần text (chỉ visual)
+- [x] **1A.1** Component `LoadingScreen`: full-viewport overlay
+- [x] **1A.2** WebGL/Canvas shader effect (từ Stitch "Shader" screen)
+- [x] **1A.3** Stadium gate animation: 2 panel (top + bottom) Dark Navy, film grain 3%
+- [x] **1A.4** Club crest hiện giữa khi 2 panel gặp nhau
+- [x] **1A.5** 3 championship stars vàng (#C3A044) phía trên crest
+- [x] **1A.6** Progress bar: 2px Club Blue, fill left→right
+- [x] **1A.7** Panels tách ra reveal homepage — easing `cubic-bezier(0.65, 0, 0.35, 1)` 800ms
+- [x] **1A.8** Tổng thời gian ~2.5-3s, chỉ hiện lần đầu truy cập (sessionStorage flag)
+- [x] **1A.9** i18n: không cần text (chỉ visual)
 
 ### 1B — Homepage
 
@@ -251,21 +279,21 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Route:** `/[locale]`
 **Tham chiếu DESIGN.md:** Section 9 — Homepage
 
-- [ ] **1B.1** Hero section: Full-bleed ảnh sân Thiên Trường + overlay Dark Navy gradient + headline Bebas Neue "NIỀM TỰ HÀO THÀNH NAM" + 1 CTA button
-- [ ] **1B.2** Match Center section: Dark Navy background, scoreboard style — trận tiếp theo / kết quả gần nhất. Bebas Neue scores lớn, JetBrains Mono thời gian, team crests
-- [ ] **1B.3** Standings mini: Bảng xếp hạng rút gọn (top 4-5 đội) + link "Xem đầy đủ"
-- [ ] **1B.4** News section: Editorial layout — 1 bài lớn (7 cols) + 2-3 bài nhỏ (5 cols). KHÔNG dùng 3 card đều nhau
-- [ ] **1B.5** Mock data: `mocks/home.json` (next match, latest result, standings top 5, latest news 4 bài)
-- [ ] **1B.6** Skeleton loading cho từng section
-- [ ] **1B.7** Scroll reveal animations: fade + translateY(16px), stagger 50ms
-- [ ] **1B.8** Mobile layout: đồng nhất với desktop (cùng sections, reflow single column), match info ưu tiên lên đầu
-- [ ] **1B.9** i18n: `home.json` (vi + en) — hero text, section titles, CTA labels
+- [x] **1B.1** Hero section: Full-bleed ảnh sân Thiên Trường + overlay Dark Navy gradient + headline Bebas Neue "NIỀM TỰ HÀO THÀNH NAM" + 1 CTA button
+- [x] **1B.2** Match Center section: Dark Navy background, scoreboard style — trận tiếp theo / kết quả gần nhất. Bebas Neue scores lớn, JetBrains Mono thời gian, team crests
+- [x] **1B.3** Standings mini: Bảng xếp hạng rút gọn (top 4-5 đội) + link "Xem đầy đủ"
+- [x] **1B.4** News section: Editorial layout — 1 bài lớn (7 cols) + 2-3 bài nhỏ (5 cols). KHÔNG dùng 3 card đều nhau
+- [x] **1B.5** Mock data: `mocks/home.json` (next match, latest result, standings top 5, latest news 4 bài)
+- [x] **1B.6** Skeleton loading cho từng section
+- [x] **1B.7** Scroll reveal animations: fade + translateY(16px), stagger 50ms
+- [x] **1B.8** Mobile layout: đồng nhất với desktop (cùng sections, reflow single column), match info ưu tiên lên đầu
+- [x] **1B.9** i18n: `home.json` (vi + en) — hero text, section titles, CTA labels
 
-### Shared components cần build trong Phase 1:
-- `MatchScoreCard`
-- `LeagueTable` (mini version)
-- `NewsCardLarge` + `NewsCardSmall`
-- `SectionHeader`
+### Shared components đã build trong Phase 1:
+- [x] `MatchScoreCard`
+- [x] `LeagueTableMini`
+- [x] `NewsCardLarge` + `NewsCardSmall`
+- [x] `SectionHeader`
 
 ---
 
@@ -277,13 +305,16 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/club/`
 **Route:** `/[locale]/club`
 
-- [ ] **2A.1** Hero: Ảnh sân/CLB + overlay + title "Câu lạc bộ"
-- [ ] **2A.2** Giới thiệu CLB: text editorial layout, asymmetric (ảnh 7 cols + text 5 cols)
-- [ ] **2A.3** Stats highlights: StatCard row (năm thành lập, số chức vô địch, sức chứa sân...)
-- [ ] **2A.4** Lịch sử tóm tắt + link đến `/history`
-- [ ] **2A.5** Mock data: `mocks/club.json`
-- [ ] **2A.6** i18n: `club.json`
-- [ ] **2A.7** Responsive: mobile single column
+- [x] **2A.1** Hero: Ảnh sân/CLB + overlay + title "Câu lạc bộ" *(parallax 3-layer hero)*
+- [x] **2A.2** Giới thiệu CLB: text editorial layout *(scroll-reveal ClubAbout section)*
+- [x] **2A.3** Stats highlights: StatCard row (năm thành lập, số chức vô địch, sức chứa sân...) *(CountUp animation)*
+- [x] **2A.4** Lịch sử tóm tắt *(ClubTimeline — scroll-driven drawing line, 7 milestones)*
+- [x] **2A.5** Mock data: hardcoded trong components (trang fix cứng)
+- [x] **2A.6** i18n: `club.json` (vi + en)
+- [x] **2A.7** Responsive: mobile single column
+- [x] **2A.8** *(Thêm)* Trophies: 3D tilt cards với mouse-tracking + radial-gradient glint
+- [x] **2A.9** *(Thêm)* Stadium section: Ken Burns animation + Google Maps iframe + fact cards
+- [x] **2A.10** *(Thêm)* Fans section: Facebook page iframe embed
 
 ### 2B — Squad Page
 
@@ -291,16 +322,16 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/squad/`
 **Route:** `/[locale]/squad`
 
-- [ ] **2B.1** Page header: "ĐỘI HÌNH" + subtitle mùa giải
-- [ ] **2B.2** CategoryFilter: Tất cả | Thủ môn | Hậu vệ | Tiền vệ | Tiền đạo
-- [ ] **2B.3** Player grid: 4 cols desktop, 2 cols tablet, 2 cols mobile
-- [ ] **2B.4** PlayerCard component: natural photo, số áo lớn Bebas Neue, tên Archivo, vị trí nhỏ, quốc kỳ
-- [ ] **2B.5** Group by position với section headers + horizontal rule
+- [x] **2B.1** Page header: "ĐỘI HÌNH" + subtitle mùa giải
+- [x] **2B.2** CategoryFilter (PositionFilter): Tất cả | Thủ môn | Hậu vệ | Tiền vệ | Tiền đạo *(với counts)*
+- [x] **2B.3** Player grid: 4 cols desktop, 3 cols tablet, 2 cols mobile
+- [x] **2B.4** PlayerCard component: placeholder photo, số áo lớn, tên, vị trí badge (color-coded), quốc kỳ, tuổi/chiều cao/cân nặng
+- [ ] **2B.5** Group by position với section headers + horizontal rule *(dùng filter thay vì group)*
 - [ ] **2B.6** Background alternation giữa groups (Off White / White)
 - [ ] **2B.7** Click card → navigate to `/squad/[playerId]`
-- [ ] **2B.8** Mock data: `mocks/players.json` (~25 cầu thủ)
-- [ ] **2B.9** Skeleton loading grid
-- [ ] **2B.10** i18n: `squad.json` (position names, filter labels)
+- [x] **2B.8** Mock data: `mocks/squad.json` (16 cầu thủ)
+- [x] **2B.9** Skeleton loading grid *(ContentLoader shared component)*
+- [x] **2B.10** i18n: `squad.json` (position names, filter labels)
 
 ### 2C — Player Profile
 
@@ -318,11 +349,13 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 - [ ] **2C.8** Mock data: extend `mocks/players.json` với stats detail
 - [ ] **2C.9** i18n: thêm vào `squad.json` (stat labels, bio labels)
 
-### Shared components cần build trong Phase 2:
-- `PlayerCard`
-- `CategoryFilter`
-- `StatCard`
-- `Breadcrumb`
+### Shared components đã build trong Phase 2:
+- [x] `PlayerCard` *(trong modules/squad)*
+- [x] `PositionFilter` *(thay CategoryFilter, trong modules/squad)*
+- [x] `ContentLoader` *(shared UI — skeleton loading dùng chung)*
+- [x] `CountUp` *(trong modules/club)*
+- [x] `useScrollReveal` hook *(trong modules/club)*
+- [ ] `Breadcrumb`
 
 ---
 
@@ -334,14 +367,14 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/fixtures/`
 **Route:** `/[locale]/matches`
 
-- [ ] **3A.1** Page header: "LỊCH THI ĐẤU"
-- [ ] **3A.2** Group by tháng: Bebas Neue month/year headers lớn
-- [ ] **3A.3** Match rows: date, home crest+name, time (JetBrains Mono), away crest+name, venue, badge UPCOMING
-- [ ] **3A.4** KHÔNG dùng individual cards — dùng 1px dividers giữa rows
+- [x] **3A.1** Page header: "LỊCH THI ĐẤU" + dynamic subtitle theo giải đấu
+- [x] **3A.2** Filter: dropdown chọn giải đấu + vòng đấu (trên), tabs trạng thái all/upcoming/finished (dưới)
+- [x] **3A.3** Match cards: date, đội nhà vs đội khách, tỉ số, sân, badge trạng thái
+- [ ] **3A.4** KHÔNG dùng individual cards — dùng 1px dividers giữa rows *(hiện dùng cards)*
 - [ ] **3A.5** Mobile: simplified rows, swipe giữa tháng
 - [ ] **3A.6** Click row → navigate to `/matches/[matchId]`
-- [ ] **3A.7** Mock data: `mocks/matches.json` (upcoming matches)
-- [ ] **3A.8** i18n: `matches.json` (month names, venue, labels)
+- [x] **3A.7** Mock data: `mocks/matches.json` (upcoming + finished matches)
+- [x] **3A.8** i18n: `matches.json` (vi + en)
 
 ### 3B — Results Archive (Kết quả)
 
@@ -380,20 +413,22 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/standings/`
 **Route:** `/[locale]/standings`
 
-- [ ] **3D.1** Page header: "BẢNG XẾP HẠNG"
-- [ ] **3D.2** Competition selector: horizontal tabs desktop, dropdown mobile
-- [ ] **3D.3** Full LeagueTable: alternating rows, rank (Bebas Neue), logo, name (Archivo Condensed 700), P/W/D/L/GD/Pts (JetBrains Mono)
-- [ ] **3D.4** Highlight row TXND: subtle background hoặc left border Club Blue
-- [ ] **3D.5** Horizontal scroll trên mobile (table overflow-x)
-- [ ] **3D.6** Mock data: `mocks/standings.json` (14 đội V.League)
-- [ ] **3D.7** i18n: thêm column headers vào `matches.json`
+- [x] **3D.1** Page header: "BẢNG XẾP HẠNG" + dynamic subtitle
+- [x] **3D.2** Competition selector: horizontal tabs (V.League 1, Cúp Quốc gia)
+- [x] **3D.3** Full LeagueTable: alternating rows, rank badge (blue top 3, red bottom 2), logo, name, P/W/D/L/GD/Pts
+- [x] **3D.4** Highlight row TXND: subtle blue background
+- [x] **3D.5** Mobile compact: chỉ hiện P/GD/Pts, desktop full columns
+- [x] **3D.6** Mock data: `mocks/standings.json` (14 đội V.League + 4 đội Cúp QG)
+- [x] **3D.7** i18n: `standings.json` (vi + en) — short + full column headers
 
-### Shared components cần build trong Phase 3:
-- `MatchRow`
-- `MatchBadge`
-- `ShareButtons`
-- `LeagueTable` (full version, extend từ Phase 1 mini)
-- Tab component (for Match Detail)
+### Shared components Phase 3:
+- [x] `MatchCard` *(trong modules/matches — dùng card thay vì row)*
+- [x] `MatchFilters` *(dropdown giải + vòng, tabs trạng thái)*
+- [x] `StandingsTable` *(full version trong modules/standings)*
+- [ ] `MatchRow` *(chuyển sang row layout)*
+- [ ] `MatchBadge`
+- [ ] `ShareButtons`
+- [ ] Tab component (for Match Detail)
 
 ---
 
@@ -405,15 +440,15 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/news-center/`
 **Route:** `/[locale]/news`
 
-- [ ] **4A.1** Page header: "TRUNG TÂM TIN TỨC" + subtitle
-- [ ] **4A.2** SearchInput: tìm kiếm tin tức
-- [ ] **4A.3** CategoryFilter: Tất cả | Đội 1 | V-League | AFC | CLB | Phỏng vấn
-- [ ] **4A.4** Featured article: NewsCardLarge full width (ảnh lớn + category badge + title + excerpt + date)
-- [ ] **4A.5** News grid: 3 NewsCardSmall per row (thumbnail + title + excerpt + date). Theo DESIGN.md: varied sizes, KHÔNG đều nhau → 1 lớn + 2 nhỏ, hoặc 2+1
+- [x] **4A.1** Page header: "TIN TỨC" + subtitle
+- [ ] **4A.2** SearchInput: tìm kiếm tin tức *(chưa làm — simplified version)*
+- [x] ~~**4A.3**~~ CategoryFilter *(bỏ theo yêu cầu — để chung chung, ko chia mục)*
+- [x] **4A.4** Featured article: NewsCard variant `featured` (2-column large layout, category badge + date + title + excerpt)
+- [x] **4A.5** News grid: NewsCard regular (thumbnail + title + excerpt + date) với ContentLoader
 - [ ] **4A.6** Pagination: < 1 2 3 ... >
-- [ ] **4A.7** Mock data: `mocks/news.json` (~12 bài viết)
-- [ ] **4A.8** Skeleton loading
-- [ ] **4A.9** i18n: `news.json`
+- [x] **4A.7** Mock data: `mocks/news.json` (10 bài viết, sorted by date)
+- [x] **4A.8** Skeleton loading *(ContentLoader shared component)*
+- [x] **4A.9** i18n: `news.json` (vi + en)
 
 ### 4B — News Detail (Chi tiết tin tức)
 
