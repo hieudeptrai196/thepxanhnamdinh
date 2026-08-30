@@ -1,0 +1,17 @@
+{
+  "squad": {
+    "title": "Đội hình",
+    "subtitle": "Thép Xanh Nam Định FC — Mùa giải 2026",
+    "all": "Tất cả",
+    "goalkeeper": "Thủ môn",
+    "defender": "Hậu vệ",
+    "midfielder": "Tiền vệ",
+    "forward": "Tiền đạo",
+    "noPlayers": "Không có cầu thủ nào",
+    "age": "Tuổi",
+    "height": "Chiều cao",
+    "weight": "Cân nặng",
+    "nationality": "Quốc tịch",
+    "players": "cầu thủ"
+  }
+}

@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
 import type { Match } from '@/shared/types/match';
+import { ContentLoader } from '@/shared/components/ui/ContentLoader';
 import { MatchCard } from './MatchCard';
 import { MatchFilters, type MatchFilter } from './MatchFilters';
 
@@ -66,17 +67,17 @@ export function MatchesList({ matches }: Props) {
         onRoundChange={setRound}
       />
 
-      {filtered.length === 0 ? (
-        <p className="text-center text-text-secondary py-12">
-          {t('noMatches')}
-        </p>
-      ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((match) => (
+      <ContentLoader count={6} skeleton="row" className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {filtered.length === 0 ? (
+          <p className="col-span-full text-center text-text-secondary py-12">
+            {t('noMatches')}
+          </p>
+        ) : (
+          filtered.map((match) => (
             <MatchCard key={match.id} match={match} />
-          ))}
-        </div>
-      )}
+          ))
+        )}
+      </ContentLoader>
     </div>
   );
 }

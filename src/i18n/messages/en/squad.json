@@ -1,0 +1,17 @@
+{
+  "squad": {
+    "title": "Squad",
+    "subtitle": "Thép Xanh Nam Định FC — 2026 Season",
+    "all": "All",
+    "goalkeeper": "Goalkeepers",
+    "defender": "Defenders",
+    "midfielder": "Midfielders",
+    "forward": "Forwards",
+    "noPlayers": "No players found",
+    "age": "Age",
+    "height": "Height",
+    "weight": "Weight",
+    "nationality": "Nationality",
+    "players": "players"
+  }
+}
