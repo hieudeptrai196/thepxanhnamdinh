@@ -21,6 +21,12 @@
     "goalsAgainstFull": "Goals Against",
     "goalDifferenceFull": "Goal Difference",
     "pointsFull": "Points",
-    "noData": "No standings data available"
+    "noData": "No standings data available",
+    "p": "P",
+    "w": "W",
+    "d": "D",
+    "l": "L",
+    "gd": "GD",
+    "pts": "Pts"
   }
 }

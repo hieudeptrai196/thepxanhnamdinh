@@ -21,6 +21,12 @@
     "goalsAgainstFull": "Bàn nhận",
     "goalDifferenceFull": "Hiệu số",
     "pointsFull": "Điểm",
-    "noData": "Chưa có dữ liệu bảng xếp hạng"
+    "noData": "Chưa có dữ liệu bảng xếp hạng",
+    "p": "Tr",
+    "w": "T",
+    "d": "H",
+    "l": "B",
+    "gd": "HS",
+    "pts": "Đ"
   }
 }
