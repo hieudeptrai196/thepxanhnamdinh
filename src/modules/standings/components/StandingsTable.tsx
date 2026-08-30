@@ -9,7 +9,7 @@ type Props = {
 };
 
 const columns = [
-  'played', 'won', 'drawn', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'points',
+  'played', 'won', 'drawn', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference',
 ] as const;
 
 export function StandingsTable({ entries }: Props) {
@@ -92,22 +92,22 @@ export function StandingsTable({ entries }: Props) {
                 {columns.map((col) => (
                   <td
                     key={col}
-                    className={`px-2 py-3 text-center font-mono text-sm hidden sm:table-cell ${
-                      col === 'points' ? 'font-bold text-text-primary' : 'text-text-secondary'
-                    }`}
+                    className="px-2 py-3 text-center font-mono text-sm hidden sm:table-cell text-text-secondary"
                   >
                     {entry[col]}
                   </td>
                 ))}
 
-                {/* Stats - mobile (only played, GD, points) */}
+                {/* Stats - mobile (only played, GD) */}
                 <td className="px-3 py-3 text-center font-mono text-sm text-text-secondary sm:hidden">
                   {entry.played}
                 </td>
                 <td className="px-3 py-3 text-center font-mono text-sm text-text-secondary sm:hidden">
                   {entry.goalDifference > 0 ? `+${entry.goalDifference}` : entry.goalDifference}
                 </td>
-                <td className="px-3 py-3 text-center font-mono text-sm font-bold text-text-primary sm:hidden">
+
+                {/* Points - always visible */}
+                <td className="px-3 py-3 text-center font-mono text-sm font-bold text-text-primary">
                   {entry.points}
                 </td>
               </tr>
