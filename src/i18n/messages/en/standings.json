@@ -1,0 +1,26 @@
+{
+  "standings": {
+    "title": "Standings",
+    "subtitle": "2026 Season",
+    "allCompetitions": "All Competitions",
+    "pos": "#",
+    "team": "Team",
+    "played": "P",
+    "won": "W",
+    "drawn": "D",
+    "lost": "L",
+    "goalsFor": "GF",
+    "goalsAgainst": "GA",
+    "goalDifference": "GD",
+    "points": "Pts",
+    "playedFull": "Played",
+    "wonFull": "Won",
+    "drawnFull": "Drawn",
+    "lostFull": "Lost",
+    "goalsForFull": "Goals For",
+    "goalsAgainstFull": "Goals Against",
+    "goalDifferenceFull": "Goal Difference",
+    "pointsFull": "Points",
+    "noData": "No standings data available"
+  }
+}

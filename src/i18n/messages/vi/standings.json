@@ -1,0 +1,26 @@
+{
+  "standings": {
+    "title": "Bảng xếp hạng",
+    "subtitle": "Mùa giải 2026",
+    "allCompetitions": "Tất cả giải đấu",
+    "pos": "#",
+    "team": "Đội",
+    "played": "Tr",
+    "won": "T",
+    "drawn": "H",
+    "lost": "B",
+    "goalsFor": "BT",
+    "goalsAgainst": "BN",
+    "goalDifference": "HS",
+    "points": "Đ",
+    "playedFull": "Trận",
+    "wonFull": "Thắng",
+    "drawnFull": "Hoà",
+    "lostFull": "Thua",
+    "goalsForFull": "Bàn thắng",
+    "goalsAgainstFull": "Bàn nhận",
+    "goalDifferenceFull": "Hiệu số",
+    "pointsFull": "Điểm",
+    "noData": "Chưa có dữ liệu bảng xếp hạng"
+  }
+}
