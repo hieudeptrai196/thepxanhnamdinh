@@ -59,7 +59,8 @@ export default async function LocaleLayout({ children, params }: Props) {
   const squad = (await import(`@/i18n/messages/${locale}/squad.json`)).default;
   const standings = (await import(`@/i18n/messages/${locale}/standings.json`)).default;
   const news = (await import(`@/i18n/messages/${locale}/news.json`)).default;
-  const messages = { ...common, ...home, ...matches, ...squad, ...standings, ...news };
+  const club = (await import(`@/i18n/messages/${locale}/club.json`)).default;
+  const messages = { ...common, ...home, ...matches, ...squad, ...standings, ...news, ...club };
 
   const cookieStore = await cookies();
   const themeCookie = cookieStore.get('theme');
