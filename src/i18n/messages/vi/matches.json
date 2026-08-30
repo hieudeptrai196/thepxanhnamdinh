@@ -1,0 +1,19 @@
+{
+  "matches": {
+    "title": "Lịch thi đấu",
+    "subtitle": "Tất cả giải đấu — Mùa giải 2026",
+    "season": "Mùa giải 2026",
+    "filterAll": "Tất cả",
+    "filterUpcoming": "Sắp diễn ra",
+    "filterFinished": "Đã kết thúc",
+    "allCompetitions": "Tất cả giải đấu",
+    "allRounds": "Tất cả vòng đấu",
+    "noMatches": "Không có trận đấu nào",
+    "upcoming": "Sắp diễn ra",
+    "live": "Trực tiếp",
+    "ft": "KT",
+    "win": "Thắng",
+    "loss": "Thua",
+    "draw": "Hoà"
+  }
+}

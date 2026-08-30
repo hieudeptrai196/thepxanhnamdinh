@@ -55,7 +55,8 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   const common = (await import(`@/i18n/messages/${locale}/common.json`)).default;
   const home = (await import(`@/i18n/messages/${locale}/home.json`)).default;
-  const messages = { ...common, ...home };
+  const matches = (await import(`@/i18n/messages/${locale}/matches.json`)).default;
+  const messages = { ...common, ...home, ...matches };
 
   const cookieStore = await cookies();
   const themeCookie = cookieStore.get('theme');

@@ -1,0 +1,19 @@
+{
+  "matches": {
+    "title": "Fixtures & Results",
+    "subtitle": "All Competitions — 2026 Season",
+    "season": "2026 Season",
+    "filterAll": "All",
+    "filterUpcoming": "Upcoming",
+    "filterFinished": "Results",
+    "allCompetitions": "All Competitions",
+    "allRounds": "All Rounds",
+    "noMatches": "No matches found",
+    "upcoming": "Upcoming",
+    "live": "Live",
+    "ft": "FT",
+    "win": "Win",
+    "loss": "Loss",
+    "draw": "Draw"
+  }
+}
