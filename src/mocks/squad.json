@@ -9,7 +9,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1996-03-15",
     "height": 185,
-    "weight": 78
+    "weight": 78,
+    "bio": "Thủ môn số 1 của Thép Xanh Nam Định, nổi bật với khả năng phản xạ xuất sắc và chỉ huy hàng thủ đầy kinh nghiệm.",
+    "stats": { "appearances": 28, "goals": 0, "assists": 0, "cleanSheets": 12, "yellowCards": 2, "redCards": 0, "minutesPlayed": 2520, "rating": 7.2 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-25",
@@ -21,7 +30,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1993-08-22",
     "height": 183,
-    "weight": 76
+    "weight": 76,
+    "bio": "Thủ môn dự bị giàu kinh nghiệm, từng khoác áo đội tuyển quốc gia.",
+    "stats": { "appearances": 6, "goals": 0, "assists": 0, "cleanSheets": 3, "yellowCards": 0, "redCards": 0, "minutesPlayed": 540, "rating": 6.8 },
+    "recentForm": [
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-0" },
+      { "opponent": "Quảng Nam", "result": "D", "score": "0-0" },
+      { "opponent": "SHB Đà Nẵng", "result": "W", "score": "3-0" },
+      { "opponent": "TP.HCM", "result": "W", "score": "1-0" },
+      { "opponent": "Khánh Hoà", "result": "W", "score": "2-1" }
+    ]
   },
   {
     "id": "p-02",
@@ -33,7 +51,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1998-05-10",
     "height": 180,
-    "weight": 74
+    "weight": 74,
+    "bio": "Hậu vệ phải nhanh nhẹn với khả năng tham gia tấn công tốt.",
+    "stats": { "appearances": 25, "goals": 1, "assists": 4, "yellowCards": 5, "redCards": 0, "minutesPlayed": 2180, "rating": 6.9 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-03",
@@ -45,7 +72,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1997-11-28",
     "height": 178,
-    "weight": 72
+    "weight": 72,
+    "bio": "Trung vệ cứng cáp với khả năng đọc trận đấu tốt, là trụ cột trong hàng phòng ngự.",
+    "stats": { "appearances": 30, "goals": 2, "assists": 1, "yellowCards": 6, "redCards": 1, "minutesPlayed": 2700, "rating": 7.1 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-04",
@@ -57,7 +93,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1995-01-20",
     "height": 176,
-    "weight": 70
+    "weight": 70,
+    "bio": "Hậu vệ trái giàu kinh nghiệm với khả năng chuyền bóng dài chính xác.",
+    "stats": { "appearances": 22, "goals": 0, "assists": 3, "yellowCards": 4, "redCards": 0, "minutesPlayed": 1890, "rating": 6.7 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" },
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-1" }
+    ]
   },
   {
     "id": "p-05",
@@ -69,7 +114,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1999-07-03",
     "height": 182,
-    "weight": 75
+    "weight": 75,
+    "bio": "Trung vệ trẻ triển vọng, cao lớn với khả năng không chiến tốt.",
+    "stats": { "appearances": 18, "goals": 1, "assists": 0, "yellowCards": 3, "redCards": 0, "minutesPlayed": 1530, "rating": 6.8 },
+    "recentForm": [
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" },
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-1" },
+      { "opponent": "Quảng Nam", "result": "D", "score": "0-0" }
+    ]
   },
   {
     "id": "p-15",
@@ -81,7 +135,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1994-09-12",
     "height": 186,
-    "weight": 82
+    "weight": 82,
+    "bio": "Trung vệ ngoại binh đến từ Brazil, mang lại sức mạnh thể chất vượt trội.",
+    "stats": { "appearances": 26, "goals": 3, "assists": 1, "yellowCards": 7, "redCards": 0, "minutesPlayed": 2340, "rating": 7.0 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-06",
@@ -93,7 +156,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1996-04-18",
     "height": 170,
-    "weight": 65
+    "weight": 65,
+    "bio": "Tiền vệ trung tâm kỹ thuật, giỏi kiểm soát nhịp độ trận đấu.",
+    "stats": { "appearances": 27, "goals": 3, "assists": 7, "yellowCards": 4, "redCards": 0, "minutesPlayed": 2295, "rating": 7.3 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-08",
@@ -105,7 +177,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1998-12-05",
     "height": 174,
-    "weight": 68
+    "weight": 68,
+    "bio": "Tiền vệ box-to-box năng động, có sức bền tốt và khả năng tranh chấp mạnh mẽ.",
+    "stats": { "appearances": 24, "goals": 2, "assists": 3, "yellowCards": 5, "redCards": 0, "minutesPlayed": 1980, "rating": 6.9 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" },
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-1" }
+    ]
   },
   {
     "id": "p-14",
@@ -117,7 +198,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "2000-02-14",
     "height": 172,
-    "weight": 66
+    "weight": 66,
+    "bio": "Tiền vệ tài năng trẻ với tầm nhìn chiến thuật tốt và sút xa nguy hiểm.",
+    "stats": { "appearances": 29, "goals": 5, "assists": 8, "yellowCards": 3, "redCards": 0, "minutesPlayed": 2520, "rating": 7.5 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-17",
@@ -129,7 +219,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1995-06-30",
     "height": 175,
-    "weight": 70
+    "weight": 70,
+    "bio": "Tiền vệ Nhật Bản với kỹ thuật tinh tế và kỷ luật chiến thuật cao.",
+    "stats": { "appearances": 20, "goals": 2, "assists": 5, "yellowCards": 2, "redCards": 0, "minutesPlayed": 1620, "rating": 7.0 },
+    "recentForm": [
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-1" },
+      { "opponent": "Quảng Nam", "result": "D", "score": "0-0" }
+    ]
   },
   {
     "id": "p-20",
@@ -141,7 +240,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1997-09-08",
     "height": 173,
-    "weight": 67
+    "weight": 67,
+    "bio": "Tiền vệ phòng ngự chuyên cần với khả năng pressing không ngừng nghỉ.",
+    "stats": { "appearances": 26, "goals": 1, "assists": 2, "yellowCards": 6, "redCards": 0, "minutesPlayed": 2250, "rating": 6.8 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" },
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-1" }
+    ]
   },
   {
     "id": "p-07",
@@ -153,7 +261,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1993-03-25",
     "height": 175,
-    "weight": 70
+    "weight": 70,
+    "bio": "Tiền đạo giàu kinh nghiệm với khả năng dứt điểm chính xác ở cự ly gần.",
+    "stats": { "appearances": 23, "goals": 8, "assists": 3, "yellowCards": 2, "redCards": 0, "minutesPlayed": 1710, "rating": 7.1 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-09",
@@ -165,7 +282,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1992-11-17",
     "height": 183,
-    "weight": 80
+    "weight": 80,
+    "bio": "Chân sút số 1, Vua phá lưới V.League với khả năng ghi bàn đa dạng từ mọi tình huống.",
+    "stats": { "appearances": 30, "goals": 22, "assists": 5, "yellowCards": 4, "redCards": 0, "minutesPlayed": 2700, "rating": 8.1 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   },
   {
     "id": "p-10",
@@ -177,7 +303,16 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1985-07-20",
     "height": 180,
-    "weight": 76
+    "weight": 76,
+    "bio": "Huyền thoại sống của CLB, cầu thủ kỳ cựu nhất với tinh thần chiến đấu không bao giờ tắt.",
+    "stats": { "appearances": 15, "goals": 4, "assists": 2, "yellowCards": 1, "redCards": 0, "minutesPlayed": 980, "rating": 6.9 },
+    "recentForm": [
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" },
+      { "opponent": "Thanh Hoá", "result": "W", "score": "2-1" },
+      { "opponent": "Quảng Nam", "result": "D", "score": "0-0" },
+      { "opponent": "SHB Đà Nẵng", "result": "W", "score": "3-0" }
+    ]
   },
   {
     "id": "p-11",
@@ -189,6 +324,15 @@
     "image": "/images/players/default.svg",
     "dateOfBirth": "1996-04-12",
     "height": 170,
-    "weight": 64
+    "weight": 64,
+    "bio": "Tiền đạo tốc độ với khả năng rê dắt qua người và tạo đột biến trên hàng công.",
+    "stats": { "appearances": 27, "goals": 10, "assists": 6, "yellowCards": 3, "redCards": 0, "minutesPlayed": 2160, "rating": 7.4 },
+    "recentForm": [
+      { "opponent": "Hà Nội FC", "result": "W", "score": "2-0" },
+      { "opponent": "Hải Phòng", "result": "W", "score": "1-0" },
+      { "opponent": "Viettel", "result": "D", "score": "1-1" },
+      { "opponent": "HAGL", "result": "W", "score": "3-1" },
+      { "opponent": "Bình Định", "result": "L", "score": "0-1" }
+    ]
   }
 ]

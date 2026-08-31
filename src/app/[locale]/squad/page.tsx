@@ -15,7 +15,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function SquadPage() {
+export default async function SquadPage({ params }: Props) {
+  const { locale } = await params;
   const t = await getTranslations('squad');
   const players = getSquadData();
 
@@ -28,7 +29,7 @@ export default async function SquadPage() {
           </h1>
         </div>
 
-        <SquadList players={players} />
+        <SquadList players={players} locale={locale} />
       </Container>
     </section>
   );

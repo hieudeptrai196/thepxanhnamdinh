@@ -1,5 +1,22 @@
 export type PlayerPosition = 'goalkeeper' | 'defender' | 'midfielder' | 'forward';
 
+export type PlayerStats = {
+  appearances: number;
+  goals: number;
+  assists: number;
+  cleanSheets?: number;
+  yellowCards: number;
+  redCards: number;
+  minutesPlayed: number;
+  rating?: number;
+};
+
+export type RecentForm = {
+  opponent: string;
+  result: 'W' | 'D' | 'L';
+  score: string;
+};
+
 export type Player = {
   id: string;
   name: string;
@@ -11,14 +28,7 @@ export type Player = {
   dateOfBirth?: string;
   height?: number;
   weight?: number;
-};
-
-export type PlayerStats = {
-  appearances: number;
-  goals: number;
-  assists: number;
-  yellowCards: number;
-  redCards: number;
-  minutesPlayed: number;
-  rating?: number;
+  bio?: string;
+  stats?: PlayerStats;
+  recentForm?: RecentForm[];
 };

@@ -23,7 +23,7 @@ export function ClubStadium() {
         href="https://www.google.com/search?q=s%C3%A2n+v%E1%BA%ADn+%C4%91%E1%BB%99ng+thi%C3%AAn+tr%C6%B0%E1%BB%9Dng+nam+%C4%91%E1%BB%8Bnh&tbm=isch"
         target="_blank"
         rel="noopener noreferrer"
-        className={`block relative w-full aspect-[21/9] rounded-[var(--radius-default)] overflow-hidden mb-8 group ${
+        className={`block relative w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9] rounded-[var(--radius-default)] overflow-hidden mb-8 group ${
           visible ? 'animate-fade-in-up stagger-1' : 'opacity-0'
         }`}
       >
@@ -51,7 +51,7 @@ export function ClubStadium() {
       </div>
 
       {/* Google Maps */}
-      <div className={`w-full aspect-[21/9] rounded-[var(--radius-default)] overflow-hidden mb-8 ${
+      <div className={`w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9] rounded-[var(--radius-default)] overflow-hidden mb-8 ${
         visible ? 'animate-fade-in-up stagger-3' : 'opacity-0'
       }`}>
         <iframe

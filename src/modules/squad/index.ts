@@ -1,2 +1,2 @@
 export { SquadList } from './components/SquadList';
-export { getSquadData } from './data';
+export { getSquadData, getPlayerById } from './data';
