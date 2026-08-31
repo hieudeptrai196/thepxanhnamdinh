@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: 'TXND FC',
   url: 'https://thepxanhnamdinh.vn',
   social: {
-    facebook: 'https://facebook.com/thepxanhnamdinh',
+    facebook: 'https://www.facebook.com/ThepXanhNamDinhFC',
     youtube: 'https://youtube.com/@thepxanhnamdinh',
   },
 };

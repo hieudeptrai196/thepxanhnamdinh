@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { LazyMount, Skeleton } from '@/shared/components/ui';
 import { useScrollReveal } from './useScrollReveal';
 
 const facts = ['stadiumFact1', 'stadiumFact2', 'stadiumFact3'] as const;
@@ -50,11 +51,17 @@ export function ClubStadium() {
         </p>
       </div>
 
-      {/* Google Maps */}
-      <div className={`w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9] rounded-[var(--radius-default)] overflow-hidden mb-8 ${
-        visible ? 'animate-fade-in-up stagger-3' : 'opacity-0'
-      }`}>
+      {/* Google Maps — the iframe is only mounted once it nears the viewport,
+          so the map never loads on initial page render */}
+      <LazyMount
+        rootMargin="300px"
+        className={`w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9] rounded-[var(--radius-default)] overflow-hidden mb-8 ${
+          visible ? 'animate-fade-in-up stagger-3' : 'opacity-0'
+        }`}
+        fallback={<Skeleton className="w-full h-full" />}
+      >
         <iframe
+          title={t('stadiumTitle')}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.703122151244!2d106.17744967562135!3d20.436294707863045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135e7471458090d%3A0xc7cf9a0dbd3dad0d!2zU8OibiB24bqtbiDEkeG7mW5nIFRoacOqbiBUcsaw4budbmc!5e0!3m2!1svi!2s!4v1788085702131!5m2!1svi!2s"
           width="100%"
           height="100%"
@@ -63,7 +70,7 @@ export function ClubStadium() {
           loading="lazy"
           referrerPolicy="strict-origin-when-cross-origin"
         />
-      </div>
+      </LazyMount>
 
       {/* Facts grid */}
       <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">

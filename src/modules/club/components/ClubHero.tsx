@@ -62,6 +62,8 @@ export function ClubHero() {
             width={200}
             height={200}
             className="mx-auto size-40 sm:size-48 lg:size-56 drop-shadow-2xl opacity-[0.06]"
+            aria-hidden="true"
+            loading="lazy"
           />
         </div>
       </div>
@@ -76,6 +78,7 @@ export function ClubHero() {
             width={120}
             height={120}
             className="mx-auto size-24 sm:size-28 lg:size-32 drop-shadow-lg"
+            priority
           />
         </div>
 

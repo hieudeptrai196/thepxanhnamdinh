@@ -4,3 +4,4 @@ export { Container } from './Container';
 export { Skeleton } from './Skeleton';
 export { ContentLoader } from './ContentLoader';
 export { SectionHeader } from './SectionHeader';
+export { LazyMount } from './LazyMount';
