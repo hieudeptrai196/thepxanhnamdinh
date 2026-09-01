@@ -31,7 +31,7 @@ export default async function StadiumPage() {
       <Container>
         <StadiumStats capacity={stadium.capacity} opened={stadium.opened} titles={titles} />
         <StadiumStory stadium={stadium} />
-        <StadiumMap stands={stadium.stands} />
+        <StadiumMap stands={stadium.stands} map={stadium.map} />
         <StadiumGallery photos={stadium.gallery} />
       </Container>
     </>

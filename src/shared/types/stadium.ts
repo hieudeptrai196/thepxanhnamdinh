@@ -1,7 +1,8 @@
 export type StadiumStand = {
-  id: 'west' | 'east' | 'north' | 'south';
+  id: 'a' | 'b' | 'c' | 'd';
   name: string;
-  capacity: number;
+  /** Section labels as printed on the official plan, e.g. A1–A6. */
+  sections: string[];
   description: string;
 };
 
@@ -22,6 +23,7 @@ export type StadiumData = {
   address: string;
   floodlights: string;
   ticketUrl: string;
+  map: string;
   stands: StadiumStand[];
   gallery: StadiumPhoto[];
 };

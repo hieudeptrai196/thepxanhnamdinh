@@ -1,22 +1,28 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import type { StadiumStand } from '@/shared/types/stadium';
 
 type Props = {
   stands: StadiumStand[];
+  map: string;
 };
 
-/** Flat top-down plan — no 3D, no perspective, per DESIGN.md. */
-const standShapes: Record<StadiumStand['id'], { x: number; y: number; w: number; h: number }> = {
-  north: { x: 70, y: 20, w: 260, h: 46 },
-  south: { x: 70, y: 194, w: 260, h: 46 },
-  west: { x: 20, y: 74, w: 42, h: 112 },
-  east: { x: 338, y: 74, w: 42, h: 112 },
+/**
+ * Hotspot boxes over the official plan, in percentages of the cropped view
+ * below. The source image is a framed poster, so the wrapper trims the border
+ * and sponsor strip and shows only the diagram itself.
+ */
+const hotspots: Record<StadiumStand['id'], { left: string; top: string; width: string; height: string }> = {
+  b: { left: '24.7%', top: '16.5%', width: '50.6%', height: '16.4%' },
+  d: { left: '8.5%', top: '35.4%', width: '19.5%', height: '38%' },
+  c: { left: '71.9%', top: '35.4%', width: '18.8%', height: '38%' },
+  a: { left: '22.5%', top: '79.5%', width: '52.8%', height: '16.5%' },
 };
 
-export function StadiumMap({ stands }: Props) {
+export function StadiumMap({ stands, map }: Props) {
   const t = useTranslations('stadium');
   const [activeId, setActiveId] = useState<StadiumStand['id'] | null>(null);
 
@@ -29,71 +35,71 @@ export function StadiumMap({ stands }: Props) {
       </h2>
       <p className="text-sm text-text-secondary mb-8">{t('mapHint')}</p>
 
-      <div className="grid lg:grid-cols-[1fr_320px] gap-8 items-start">
-        <div className="rounded-[var(--radius-default)] bg-bg-secondary border border-[var(--border-color)] p-4 sm:p-6">
-          <svg viewBox="0 0 400 260" className="w-full h-auto" role="group" aria-label={t('mapTitle')}>
-            {/* Pitch */}
-            <rect x="82" y="78" width="236" height="104" rx="2" className="fill-[var(--color-win-green)] opacity-20" />
-            <rect x="82" y="78" width="236" height="104" rx="2" fill="none" stroke="currentColor" strokeWidth="1" className="text-text-secondary opacity-40" />
-            <line x1="200" y1="78" x2="200" y2="182" stroke="currentColor" strokeWidth="1" className="text-text-secondary opacity-40" />
-            <circle cx="200" cy="130" r="18" fill="none" stroke="currentColor" strokeWidth="1" className="text-text-secondary opacity-40" />
-            <rect x="82" y="104" width="20" height="52" fill="none" stroke="currentColor" strokeWidth="1" className="text-text-secondary opacity-40" />
-            <rect x="298" y="104" width="20" height="52" fill="none" stroke="currentColor" strokeWidth="1" className="text-text-secondary opacity-40" />
+      <div className="grid lg:grid-cols-[1fr_320px] gap-6 lg:gap-8 items-start">
+        <div className="rounded-[var(--radius-default)] bg-bg-secondary border border-[var(--border-color)] p-3 sm:p-4">
+          <div
+            className="relative w-full overflow-hidden rounded-[var(--radius-small)]"
+            style={{ aspectRatio: '1864 / 1294' }}
+          >
+            {/* Oversized inner frame crops the poster border away */}
+            <div
+              className="absolute"
+              style={{ left: '-4.945%', top: '-6.329%', width: '109.89%', height: '126.58%' }}
+            >
+              <Image
+                src={map}
+                alt={t('mapTitle')}
+                fill
+                sizes="(max-width: 1024px) 100vw, 60vw"
+                className="object-cover"
+              />
+            </div>
 
-            {/* Stands */}
             {stands.map((stand) => {
-              const shape = standShapes[stand.id];
+              const box = hotspots[stand.id];
               const isActive = stand.id === activeId;
               return (
-                <g key={stand.id}>
-                  <rect
-                    x={shape.x}
-                    y={shape.y}
-                    width={shape.w}
-                    height={shape.h}
-                    rx="3"
-                    tabIndex={0}
-                    role="button"
-                    aria-pressed={isActive}
-                    aria-label={stand.name}
-                    onClick={() => setActiveId(isActive ? null : stand.id)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        setActiveId(isActive ? null : stand.id);
-                      }
-                    }}
-                    className={`cursor-pointer transition-colors duration-150 outline-none ${
-                      isActive
-                        ? 'fill-club-blue'
-                        : 'fill-[var(--border-color)] hover:fill-[var(--color-club-blue-15)]'
-                    }`}
-                  />
-                  <text
-                    x={shape.x + shape.w / 2}
-                    y={shape.y + shape.h / 2 + 4}
-                    textAnchor="middle"
-                    className={`font-mono text-[11px] pointer-events-none ${
-                      isActive ? 'fill-white' : 'fill-[var(--text-secondary)]'
-                    }`}
-                  >
-                    {stand.id === 'west' ? 'A' : stand.id === 'east' ? 'B' : stand.id === 'north' ? 'C' : 'D'}
-                  </text>
-                </g>
+                <button
+                  key={stand.id}
+                  type="button"
+                  aria-pressed={isActive}
+                  aria-label={stand.name}
+                  onClick={() => setActiveId(isActive ? null : stand.id)}
+                  style={box}
+                  className={`absolute rounded-[3px] border-2 transition-colors duration-150 ${
+                    isActive
+                      ? 'border-club-blue bg-[var(--color-club-blue-15)]'
+                      : 'border-transparent hover:border-club-blue hover:bg-[var(--color-club-blue-8)]'
+                  }`}
+                />
               );
             })}
-          </svg>
+          </div>
         </div>
 
-        {/* Detail panel */}
+        {/* Stand list doubles as the selector on touch devices */}
         <div className="rounded-[var(--radius-default)] bg-bg-secondary border border-[var(--border-color)] p-5 sm:p-6">
           {active ? (
             <>
-              <h3 className="font-heading font-bold text-lg text-text-primary mb-1">{active.name}</h3>
-              <p className="font-mono text-sm text-club-blue mb-4">
-                {active.capacity.toLocaleString('vi-VN')} {t('seats')}
-              </p>
-              <p className="text-sm text-text-secondary leading-relaxed">{active.description}</p>
+              <h3 className="font-heading font-bold text-lg text-text-primary mb-3">{active.name}</h3>
+              <div className="flex flex-wrap gap-1.5 mb-4">
+                {active.sections.map((section) => (
+                  <span
+                    key={section}
+                    className="px-2 py-1 rounded-[var(--radius-badge)] bg-club-blue text-white font-mono text-xs"
+                  >
+                    {section}
+                  </span>
+                ))}
+              </div>
+              <p className="text-sm text-text-secondary leading-relaxed mb-4">{active.description}</p>
+              <button
+                type="button"
+                onClick={() => setActiveId(null)}
+                className="text-sm font-heading font-bold text-club-blue hover:text-club-blue-hover transition-colors duration-150"
+              >
+                ← {t('allStands')}
+              </button>
             </>
           ) : (
             <div className="flex flex-col divide-y divide-[var(--border-color)]">
@@ -102,11 +108,13 @@ export function StadiumMap({ stands }: Props) {
                   key={stand.id}
                   type="button"
                   onClick={() => setActiveId(stand.id)}
-                  className="flex items-center justify-between gap-3 py-3 first:pt-0 last:pb-0 text-left hover:text-club-blue transition-colors duration-150"
+                  className="flex items-center justify-between gap-3 py-3 first:pt-0 last:pb-0 text-left group"
                 >
-                  <span className="text-sm font-heading font-bold text-text-primary">{stand.name}</span>
+                  <span className="text-sm font-heading font-bold text-text-primary group-hover:text-club-blue transition-colors duration-150">
+                    {stand.name}
+                  </span>
                   <span className="font-mono text-xs text-text-secondary shrink-0">
-                    {stand.capacity.toLocaleString('vi-VN')}
+                    {stand.sections.join(' · ')}
                   </span>
                 </button>
               ))}

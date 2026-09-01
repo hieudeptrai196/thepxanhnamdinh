@@ -483,7 +483,10 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 - [x] **5A.2** Stats row: StatCard — **30.000** (sức chứa), 2003 (năm khánh thành), 3 danh hiệu V.League
   - ⚠ PLAN ghi 25.000 nhưng `club.json`, `ClubStats` và `ClubStadium` đều ghi 30.000 → dùng 30.000 cho nhất quán
 - [x] **5A.3** "Trái Tim Bóng Đá Nam Định" section: editorial layout (text + ảnh sân) — lịch sử sân, thông tin kỹ thuật
-- [x] **5A.4** Seating map: SVG flat diagram các khán đài (Đông A, Đông B, Tây, ...) — click vào section hiện thông tin. Theo DESIGN.md: KHÔNG 3D, KHÔNG perspective
+- [x] **5A.4** Seating map: dùng **sơ đồ chính thức** `images/common/stadium/sodosanvandong.jpg`, overlay 4 vùng bấm (A / B / C / D) — click hiện tên khán đài, danh sách khu và mô tả. Ảnh nhìn từ trên xuống, KHÔNG 3D, KHÔNG perspective
+  - Wrapper cắt bỏ viền poster và dải logo tài trợ, chỉ hiện phần sơ đồ
+  - Tên khán đài và khu (A1–A6, B1–B4, C, D) lấy đúng theo sơ đồ, thay cho bản tự vẽ Đông/Tây/Nam/Bắc trước đó
+  - Bỏ sức chứa từng khán đài vì sơ đồ không ghi — không bịa số
 - [x] **5A.5** "Không Khí Ngày Trận" gallery: grid tự co theo số ảnh
   - ⚠ Chỉ có **2 ảnh thật** (`sanvandong.webp` + banner đội hình). Toàn bộ `public/images/news/*.jpg` là ảnh giả 2.3KB màu đặc → cần ảnh matchday thật
 - [x] **5A.6** Mock data: `mocks/stadium.json`

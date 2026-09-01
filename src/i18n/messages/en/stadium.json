@@ -18,6 +18,7 @@
     "mapTitle": "Seating map",
     "mapHint": "Select a stand to see its details.",
     "seats": "seats",
-    "galleryTitle": "Matchday atmosphere"
+    "galleryTitle": "Matchday atmosphere",
+    "allStands": "All stands"
   }
 }
