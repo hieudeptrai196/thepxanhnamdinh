@@ -8,7 +8,7 @@
 
 ---
 
-## Tiến độ tổng quan (cập nhật 2026-08-30)
+## Tiến độ tổng quan (cập nhật 2026-09-01)
 
 | Phase | Nội dung | Trạng thái |
 |-------|----------|------------|
@@ -16,9 +16,9 @@
 | **1A** | Loading Screen | ✅ Hoàn thành |
 | **1B** | Homepage | ✅ Hoàn thành |
 | **2A** | Club Overview | ✅ Hoàn thành *(nâng cấp: parallax, 3D tilt, timeline drawing, Ken Burns, FB embed, Google Maps)* |
-| **2B** | Squad Page | ⚡ ~80% *(thiếu group by position, click → player profile)* |
-| **2C** | Player Profile | ❌ Chưa làm |
-| **3A** | Fixtures (Matches) | ⚡ ~70% *(dùng card thay row, thiếu click → detail)* |
+| **2B** | Squad Page | ✅ Hoàn thành |
+| **2C** | Player Profile | ✅ Hoàn thành |
+| **3A** | Fixtures (Matches) | ⚡ ~90% *(đã chuyển sang rows + group theo tháng; còn click → detail, chờ 3C)* |
 | **3B** | Results Archive | ⚡ Gộp vào 3A *(matches page có filter finished)* |
 | **3C** | Match Detail | ❌ Chưa làm |
 | **3D** | Standings | ✅ Hoàn thành |
@@ -370,9 +370,9 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 - [x] **3A.1** Page header: "LỊCH THI ĐẤU" + dynamic subtitle theo giải đấu
 - [x] **3A.2** Filter: dropdown chọn giải đấu + vòng đấu (trên), tabs trạng thái all/upcoming/finished (dưới)
 - [x] **3A.3** Match cards: date, đội nhà vs đội khách, tỉ số, sân, badge trạng thái
-- [ ] **3A.4** KHÔNG dùng individual cards — dùng 1px dividers giữa rows *(hiện dùng cards)*
-- [ ] **3A.5** Mobile: simplified rows, swipe giữa tháng
-- [ ] **3A.6** Click row → navigate to `/matches/[matchId]`
+- [x] **3A.4** KHÔNG dùng individual cards — dùng 1px dividers giữa rows
+- [x] **3A.5** Mobile: simplified rows, swipe giữa tháng *(scroll-snap lane + month switcher)*
+- [ ] **3A.6** Click row → navigate to `/matches/[matchId]` *(`MatchRow` đã có prop `href`, nối khi xong 3C)*
 - [x] **3A.7** Mock data: `mocks/matches.json` (upcoming + finished matches)
 - [x] **3A.8** i18n: `matches.json` (vi + en)
 
@@ -422,11 +422,11 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 - [x] **3D.7** i18n: `standings.json` (vi + en) — short + full column headers
 
 ### Shared components Phase 3:
-- [x] `MatchCard` *(trong modules/matches — dùng card thay vì row)*
+- [x] ~~`MatchCard`~~ *(đã xoá — DESIGN.md yêu cầu rows, không dùng card)*
 - [x] `MatchFilters` *(dropdown giải + vòng, tabs trạng thái)*
 - [x] `StandingsTable` *(full version trong modules/standings)*
-- [ ] `MatchRow` *(chuyển sang row layout)*
-- [ ] `MatchBadge`
+- [x] `MatchRow` *(shared/components/match — grid row + 1px dividers)*
+- [x] `MatchBadge`
 - [ ] `ShareButtons`
 - [ ] Tab component (for Match Detail)
 
