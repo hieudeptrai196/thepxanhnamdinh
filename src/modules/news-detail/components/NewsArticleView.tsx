@@ -65,7 +65,7 @@ export function NewsArticleView({ article, related, relatedMatch }: Props) {
           </span>
         </div>
 
-        <h1 className="font-display text-[var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)] mb-4">
+        <h1 className="font-display text-[length:var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)] mb-4">
           {article.title}
         </h1>
 

@@ -32,11 +32,12 @@
     "search": "Search",
     "loading": "Loading...",
     "noResults": "No results found",
-    "error404": "Page Not Found",
-    "error404Desc": "The page you are looking for does not exist or has been moved.",
+    "error404": "Offside",
+    "error404Desc": "The page you are looking for is beyond the line. It may have been moved, or it never existed.",
     "share": "Share",
     "copyLink": "Copy link",
-    "copied": "Copied"
+    "copied": "Copied",
+    "error404Label": "Error 404"
   },
   "language": {
     "vi": "Tiếng Việt",

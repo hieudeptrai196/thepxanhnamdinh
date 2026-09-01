@@ -24,7 +24,7 @@ export default async function SquadPage({ params }: Props) {
     <section className="py-8 lg:py-12">
       <Container>
         <div className="mb-8">
-          <h1 className="font-display text-[var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)]">
+          <h1 className="font-display text-[length:var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)]">
             {t('title')}
           </h1>
         </div>

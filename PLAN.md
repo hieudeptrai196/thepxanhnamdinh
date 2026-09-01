@@ -25,7 +25,7 @@
 | **4A** | News Center | ⚡ ~85% *(card đã bấm được; còn thiếu search + pagination)* |
 | **4B** | News Detail | ✅ Hoàn thành *(10/10 bài có nội dung đầy đủ)* |
 | **5** | Stadium & History | ❌ Chưa làm |
-| **6** | 404 + SEO + Polish | ❌ Chưa làm |
+| **6** | 404 + SEO + Polish | ⚡ 6A xong; còn SEO (6B) + QA (6C) |
 | **7** | WebSocket Live Match | ❌ Chưa làm |
 | **8** | API Contract | ✅ Đã ghi trong PLAN |
 
@@ -511,8 +511,12 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Screen:** 15 — 404 Error
 **Module:** `modules/error/`
 
-- [ ] **6A.1** `not-found.tsx`: Dark Navy background, Bebas Neue "404" oversized, message text, CTA "Về trang chủ"
-- [ ] **6A.2** i18n: thêm vào `common.json`
+- [x] **6A.1** `not-found.tsx`: concept **"Việt vị"** — nền Dark Navy + ảnh sân Thiên Trường, `404` cỡ đại làm watermark, đường việt vị Club Blue nghiêng 2.5° tự kẻ ngang một lượt (700ms, gate easing), cờ trọng tài biên, CTA "Về trang chủ"
+  - UI tách ra `NotFoundScene` dùng chung cho cả 2 file 404 — animation thuần CSS, không phụ thuộc JS, có `prefers-reduced-motion`
+  - `app/[locale]/not-found.tsx` — bắt `notFound()` trong segment locale, có i18n, kèm Header/Footer
+  - `app/not-found.tsx` — bắt URL không khớp route nào; root layout là passthrough nên file này tự dựng `<html>/<body>`
+  - ⚠ Hạn chế: URL không khớp route dưới `/en` vẫn hiện chữ tiếng Việt, vì ở nhánh này không có locale context
+- [x] **6A.2** i18n: `error404` / `error404Desc` / `backToHome` đã có sẵn trong `common.json`
 
 ### 6B — SEO & Meta
 

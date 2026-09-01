@@ -72,7 +72,7 @@ export function ClubFans() {
 
         {/* Content */}
         <div className={`${visible ? 'animate-fade-in-right' : 'opacity-0'}`}>
-          <h2 className="font-display text-[var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)] mb-4">
+          <h2 className="font-display text-[length:var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)] mb-4">
             {t('fansTitle')}
           </h2>
           <p className="text-sm sm:text-base text-text-secondary leading-relaxed">

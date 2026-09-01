@@ -54,7 +54,7 @@ export function ClubTimeline() {
 
   return (
     <section ref={ref} className="py-12 lg:py-16">
-      <h2 className={`font-display text-[var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)] text-center mb-10 lg:mb-14 ${
+      <h2 className={`font-display text-[length:var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary leading-[var(--leading-tight)] text-center mb-10 lg:mb-14 ${
         visible ? 'animate-fade-in-up' : 'opacity-0'
       }`}>
         {t('historyTitle')}

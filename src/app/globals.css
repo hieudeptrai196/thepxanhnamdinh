@@ -297,3 +297,21 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* 404 — offside line sweeps across once, then the copy settles in */
+@keyframes offside-line {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.animate-offside-line {
+  transform-origin: left center;
+  animation: offside-line 0.7s var(--ease-gate) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-offside-line {
+    animation: none;
+    transform: scaleX(1);
+  }
+}

@@ -57,7 +57,7 @@ export function PlayerProfile({ player, locale }: Props) {
             />
             {/* Oversized jersey number */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <span className="font-display text-[var(--text-number-display)] text-white/15 select-none">
+              <span className="font-display text-[length:var(--text-number-display)] text-white/15 select-none">
                 {player.number}
               </span>
             </div>

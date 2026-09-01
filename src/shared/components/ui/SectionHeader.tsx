@@ -12,7 +12,7 @@ export function SectionHeader({ title, subtitle, action, className }: Props) {
   return (
     <div className={cn('flex items-end justify-between gap-4 mb-6', className)}>
       <div>
-        <h2 className="font-display text-[var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary">
+        <h2 className="font-display text-[length:var(--text-section)] tracking-[var(--tracking-display)] uppercase text-text-primary">
           {title}
         </h2>
         {subtitle && (
