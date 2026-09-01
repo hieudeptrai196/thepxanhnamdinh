@@ -22,8 +22,8 @@
 | **3B** | Results Archive | ⚡ Gộp vào 3A *(matches page có filter finished)* |
 | **3C** | Match Detail | ✅ Hoàn thành *(data đầy đủ cho 3 trận gần nhất + trận kế; còn lại hiện empty state)* |
 | **3D** | Standings | ✅ Hoàn thành |
-| **4A** | News Center | ⚡ ~80% *(simplified — không có search, category filter, pagination)* |
-| **4B** | News Detail | ❌ Chưa làm |
+| **4A** | News Center | ⚡ ~85% *(card đã bấm được; còn thiếu search + pagination)* |
+| **4B** | News Detail | ✅ Hoàn thành *(10/10 bài có nội dung đầy đủ)* |
 | **5** | Stadium & History | ❌ Chưa làm |
 | **6** | 404 + SEO + Polish | ❌ Chưa làm |
 | **7** | WebSocket Live Match | ❌ Chưa làm |
@@ -456,18 +456,18 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/news-detail/`
 **Route:** `/[locale]/news/[slug]`
 
-- [ ] **4B.1** Breadcrumb: Home > Tin tức > Title
-- [ ] **4B.2** Category badge + date
-- [ ] **4B.3** Headline: Archivo Black / Bebas Neue display scale
-- [ ] **4B.4** Subtitle/excerpt
-- [ ] **4B.5** Author info: avatar + name + date
-- [ ] **4B.6** Hero image: full body width, 3:2 hoặc 16:9
-- [ ] **4B.7** Article body: Be Vietnam Pro 400, 1rem, 1.65 line-height, max-width 820px centered
-- [ ] **4B.8** Pull quotes: Archivo Condensed 600 Italic, 1.5rem, left border 3px Club Blue
-- [ ] **4B.9** Sidebar: ShareButtons + Match stats (nếu bài liên quan trận đấu)
-- [ ] **4B.10** Related News section: 3 NewsCardSmall
-- [ ] **4B.11** Mock data: extend `mocks/news.json` với full content (markdown hoặc HTML)
-- [ ] **4B.12** i18n: thêm vào `news.json`
+- [x] **4B.1** Breadcrumb: Home > Tin tức > Title
+- [x] **4B.2** Category badge + date
+- [x] **4B.3** Headline: Archivo Black / Bebas Neue display scale
+- [x] **4B.4** Subtitle/excerpt
+- [x] **4B.5** Author info: avatar + name + date *(avatar = chữ cái viết tắt, mock data chưa có ảnh tác giả)*
+- [x] **4B.6** Hero image: full body width, 3:2 hoặc 16:9
+- [x] **4B.7** Article body: Be Vietnam Pro 400, 1rem, 1.65 line-height, max-width 820px centered
+- [x] **4B.8** Pull quotes: Archivo Condensed 600 Italic, 1.5rem, left border 3px Club Blue
+- [x] **4B.9** Sidebar: ShareButtons + card trận liên quan *(tỉ số + link sang match detail; chỉ hiện khi bài có `relatedMatchId`)*
+- [x] **4B.10** Related News section: 3 NewsCardSmall
+- [x] **4B.11** Mock data: `mocks/news.json` có `content` dạng block (`paragraph` / `heading` / `quote`) cho cả 10 bài
+- [x] **4B.12** i18n: thêm vào `news.json`
 
 ---
 

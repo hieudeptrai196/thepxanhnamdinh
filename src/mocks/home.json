@@ -48,70 +48,88 @@
   "standings": [
     {
       "position": 1,
-      "team": { "id": "txnd", "name": "Thép Xanh Nam Định", "shortName": "TXNĐ", "logo": "/images/teams/txnd.png" },
-      "played": 20, "won": 14, "drawn": 4, "lost": 2, "goalsFor": 38, "goalsAgainst": 14, "goalDifference": 24, "points": 46
+      "team": {
+        "id": "txnd",
+        "name": "Thép Xanh Nam Định",
+        "shortName": "TXNĐ",
+        "logo": "/images/teams/txnd.png"
+      },
+      "played": 20,
+      "won": 14,
+      "drawn": 4,
+      "lost": 2,
+      "goalsFor": 38,
+      "goalsAgainst": 14,
+      "goalDifference": 24,
+      "points": 46
     },
     {
       "position": 2,
-      "team": { "id": "cahn", "name": "Công An Hà Nội", "shortName": "CAHN", "logo": "/images/teams/cahn.svg" },
-      "played": 20, "won": 13, "drawn": 3, "lost": 4, "goalsFor": 35, "goalsAgainst": 18, "goalDifference": 17, "points": 42
+      "team": {
+        "id": "cahn",
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "/images/teams/cahn.svg"
+      },
+      "played": 20,
+      "won": 13,
+      "drawn": 3,
+      "lost": 4,
+      "goalsFor": 35,
+      "goalsAgainst": 18,
+      "goalDifference": 17,
+      "points": 42
     },
     {
       "position": 3,
-      "team": { "id": "hagl", "name": "Hoàng Anh Gia Lai", "shortName": "HAGL", "logo": "/images/teams/hagl.svg" },
-      "played": 20, "won": 11, "drawn": 5, "lost": 4, "goalsFor": 30, "goalsAgainst": 19, "goalDifference": 11, "points": 38
+      "team": {
+        "id": "hagl",
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "/images/teams/hagl.svg"
+      },
+      "played": 20,
+      "won": 11,
+      "drawn": 5,
+      "lost": 4,
+      "goalsFor": 30,
+      "goalsAgainst": 19,
+      "goalDifference": 11,
+      "points": 38
     },
     {
       "position": 4,
-      "team": { "id": "bdu", "name": "Becamex Bình Dương", "shortName": "BDU", "logo": "/images/teams/bdu.svg" },
-      "played": 20, "won": 10, "drawn": 5, "lost": 5, "goalsFor": 28, "goalsAgainst": 20, "goalDifference": 8, "points": 35
+      "team": {
+        "id": "bdu",
+        "name": "Becamex Bình Dương",
+        "shortName": "BDU",
+        "logo": "/images/teams/bdu.svg"
+      },
+      "played": 20,
+      "won": 10,
+      "drawn": 5,
+      "lost": 5,
+      "goalsFor": 28,
+      "goalsAgainst": 20,
+      "goalDifference": 8,
+      "points": 35
     },
     {
       "position": 5,
-      "team": { "id": "vte", "name": "Viettel", "shortName": "VTE", "logo": "/images/teams/vte.svg" },
-      "played": 20, "won": 10, "drawn": 4, "lost": 6, "goalsFor": 27, "goalsAgainst": 21, "goalDifference": 6, "points": 34
-    }
-  ],
-  "news": [
-    {
-      "id": "n1",
-      "slug": "nam-dinh-thang-cong-an-ha-noi-3-1",
-      "title": "Nam Định giành chiến thắng thuyết phục 3-1 trước Công An Hà Nội",
-      "excerpt": "Với lối chơi áp đảo ngay trên sân khách, Thép Xanh Nam Định đã có trận thắng quan trọng để củng cố ngôi đầu bảng V.League 2026.",
-      "image": "/images/news/match-victory.jpg",
-      "category": "v-league",
-      "author": "Ban truyền thông CLB",
-      "publishedAt": "2026-08-23T21:30:00"
-    },
-    {
-      "id": "n2",
-      "slug": "chuyen-nhuong-mua-dong-2026",
-      "title": "CLB hoàn tất bổ sung ngoại binh mới cho giai đoạn lượt về",
-      "excerpt": "Ban lãnh đạo CLB Thép Xanh Nam Định đã chính thức công bố bản hợp đồng mới, tăng cường lực lượng cho cuộc đua vô địch.",
-      "image": "/images/news/transfer.jpg",
-      "category": "club",
-      "author": "Ban truyền thông CLB",
-      "publishedAt": "2026-08-21T10:00:00"
-    },
-    {
-      "id": "n3",
-      "slug": "buoi-tap-chuan-bi-vong-21",
-      "title": "Đội hình sẵn sàng cho trận đại chiến trước HAGL",
-      "excerpt": "Toàn đội đã có buổi tập cuối cùng trước trận đấu quan trọng tại Thiên Trường. HLV trưởng tự tin vào tinh thần các cầu thủ.",
-      "image": "/images/news/training.jpg",
-      "category": "first-team",
-      "author": "Ban truyền thông CLB",
-      "publishedAt": "2026-08-20T15:00:00"
-    },
-    {
-      "id": "n4",
-      "slug": "cdv-thanh-nam-chuan-bi-tifo",
-      "title": "CĐV Thành Nam chuẩn bị tifo hoành tráng cho trận sân nhà",
-      "excerpt": "Hội CĐV Nam Định đã lên kế hoạch cho màn trình diễn tifo đặc biệt tại sân Thiên Trường trong trận đấu vòng 21.",
-      "image": "/images/news/supporters.jpg",
-      "category": "club",
-      "author": "Ban truyền thông CLB",
-      "publishedAt": "2026-08-19T09:00:00"
+      "team": {
+        "id": "vte",
+        "name": "Viettel",
+        "shortName": "VTE",
+        "logo": "/images/teams/vte.svg"
+      },
+      "played": 20,
+      "won": 10,
+      "drawn": 4,
+      "lost": 6,
+      "goalsFor": 27,
+      "goalsAgainst": 21,
+      "goalDifference": 6,
+      "points": 34
     }
   ]
 }

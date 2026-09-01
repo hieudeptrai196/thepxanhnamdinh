@@ -10,6 +10,13 @@
     "interview": "Interviews",
     "noArticles": "No articles found",
     "readMore": "Read more",
-    "articles": "articles"
+    "articles": "articles",
+    "backToNews": "Back to news",
+    "relatedNews": "Related news",
+    "byAuthor": "By",
+    "relatedMatch": "Related match",
+    "viewMatch": "View match detail",
+    "articleNotFound": "Article not found",
+    "home": "Home"
   }
 }

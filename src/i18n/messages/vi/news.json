@@ -10,6 +10,13 @@
     "interview": "Phỏng vấn",
     "noArticles": "Không có bài viết nào",
     "readMore": "Đọc tiếp",
-    "articles": "bài viết"
+    "articles": "bài viết",
+    "backToNews": "Về trang tin tức",
+    "relatedNews": "Tin liên quan",
+    "byAuthor": "Tác giả",
+    "relatedMatch": "Trận đấu liên quan",
+    "viewMatch": "Xem chi tiết trận đấu",
+    "articleNotFound": "Không tìm thấy bài viết",
+    "home": "Trang chủ"
   }
 }

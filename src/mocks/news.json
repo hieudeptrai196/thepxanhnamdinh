@@ -7,7 +7,35 @@
     "image": "/images/news/match-victory.jpg",
     "category": "first-team",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-08-23T21:30:00Z"
+    "publishedAt": "2026-08-23T21:30:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Thép Xanh Nam Định có chuyến làm khách khó khăn trên sân Hàng Đẫy, nhưng chính Rafaelson là người biến trận đấu thành màn trình diễn cá nhân. Tiền đạo người Brazil hoàn tất cú hat-trick chỉ trong vòng 63 phút, giúp đội khách thắng 3-1 trước Công An Hà Nội."
+      },
+      {
+        "type": "paragraph",
+        "text": "Chủ nhà mở tỉ số ở phút 12 sau một pha phản công nhanh bên cánh phải. Nhưng Nam Định gỡ hoà chỉ 9 phút sau đó, khi Hai Long tạt bóng chuẩn xác để Rafaelson đánh đầu cận thành."
+      },
+      {
+        "type": "heading",
+        "text": "Hiệp hai một chiều"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bước sang hiệp hai, sức ép của đội khách tăng dần. Ishii kiểm soát hoàn toàn khu trung tuyến, còn hàng thủ CAHN xuống sức rõ rệt sau giờ nghỉ. Rafaelson hoàn tất hat-trick ở phút 63 bằng cú sút chân trái từ rìa vòng cấm."
+      },
+      {
+        "type": "quote",
+        "text": "Chúng tôi đã chuẩn bị rất kỹ cho trận này. Ba điểm trên sân Hàng Đẫy luôn có giá trị đặc biệt.",
+        "attribution": "Rafaelson Bezerra"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kết quả này giúp Nam Định giữ vững ngôi đầu bảng và nới rộng khoảng cách trước nhóm bám đuổi khi giải đấu bước vào giai đoạn quyết định."
+      }
+    ],
+    "relatedMatchId": "m-2026-r20"
   },
   {
     "id": "n-002",
@@ -17,7 +45,29 @@
     "image": "/images/news/training.jpg",
     "category": "v-league",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-08-24T10:00:00Z"
+    "publishedAt": "2026-08-24T10:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Sau 20 vòng đấu tại V.League 2026, Rafaelson Bezerra tiếp tục dẫn đầu danh sách Vua phá lưới với 18 bàn thắng, hơn người xếp thứ hai 4 bàn."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tiền đạo người Brazil đã ghi bàn trong 6 trận liên tiếp gần nhất, trong đó có cú hat-trick trên sân Hàng Đẫy trước Công An Hà Nội."
+      },
+      {
+        "type": "heading",
+        "text": "Hiệu suất ổn định suốt mùa"
+      },
+      {
+        "type": "paragraph",
+        "text": "Điều đáng chú ý không chỉ là số bàn thắng, mà là sự đều đặn. Rafaelson ghi bàn ở cả sân nhà lẫn sân khách, trước cả những hàng thủ mạnh nhất giải."
+      },
+      {
+        "type": "paragraph",
+        "text": "Với phong độ hiện tại, danh hiệu Vua phá lưới mùa thứ hai liên tiếp đang nằm rất gần trong tầm tay tiền đạo mang áo số 9."
+      }
+    ]
   },
   {
     "id": "n-003",
@@ -27,7 +77,33 @@
     "image": "/images/news/training.jpg",
     "category": "interview",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-08-29T14:00:00Z"
+    "publishedAt": "2026-08-29T14:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Trong buổi họp báo trước trận đại chiến với Hoàng Anh Gia Lai, huấn luyện viên trưởng Thép Xanh Nam Định khẳng định đội bóng đã sẵn sàng cả về lực lượng lẫn tinh thần."
+      },
+      {
+        "type": "quote",
+        "text": "Chúng tôi có đầy đủ quân số. Không ai chấn thương, không ai bị treo giò. Đây là điều kiện tốt nhất mà một huấn luyện viên có thể mong đợi trước trận cầu lớn."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ông cũng nhấn mạnh rằng HAGL là đối thủ khó chịu, đặc biệt trong các trận đấu trên sân Thiên Trường, nơi áp lực từ khán đài đôi khi tác động ngược lên chính đội chủ nhà."
+      },
+      {
+        "type": "heading",
+        "text": "Về vấn đề xoay tua"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trước câu hỏi về việc xoay tua đội hình khi lịch thi đấu dày đặc, ông cho biết ban huấn luyện sẽ cân nhắc từng trận một, ưu tiên thể trạng cầu thủ hơn là danh tiếng."
+      },
+      {
+        "type": "quote",
+        "text": "Không có ai chắc suất đá chính ở đây. Ai có phong độ tốt nhất trong tuần thì người đó ra sân."
+      }
+    ]
   },
   {
     "id": "n-004",
@@ -37,7 +113,30 @@
     "image": "/images/news/transfer.jpg",
     "category": "club",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-07-01T09:00:00Z"
+    "publishedAt": "2026-07-01T09:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Thép Xanh Nam Định chính thức công bố bản hợp đồng với tiền vệ trung tâm người Nhật Bản Masatoshi Ishii, bản hợp đồng có thời hạn 2 năm."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ishii, 27 tuổi, từng thi đấu tại J-League 2 trước khi chuyển sang Việt Nam. Anh được đánh giá cao ở khả năng điều tiết nhịp độ và những đường chuyền dài chuyển hướng tấn công."
+      },
+      {
+        "type": "heading",
+        "text": "Bổ sung đúng vị trí cần"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tuyến giữa vốn là khu vực Nam Định cần gia cố nhất sau khi mùa giải trước để lộ điểm yếu trong việc kiểm soát thế trận trước các đối thủ chơi pressing tầm cao."
+      },
+      {
+        "type": "quote",
+        "text": "Tôi biết Thiên Trường là một trong những sân bóng cuồng nhiệt nhất châu Á. Được chơi bóng ở đây là điều tôi mong chờ.",
+        "attribution": "Masatoshi Ishii"
+      }
+    ]
   },
   {
     "id": "n-005",
@@ -47,7 +146,29 @@
     "image": "/images/news/supporters.jpg",
     "category": "club",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-06-15T08:00:00Z"
+    "publishedAt": "2026-06-15T08:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Sân vận động Thiên Trường vừa hoàn tất việc nâng cấp hệ thống chiếu sáng LED, đáp ứng đầy đủ tiêu chuẩn của AFC Champions League."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hệ thống mới có độ rọi trung bình đạt trên 1.400 lux, cho phép tổ chức các trận đấu quốc tế được truyền hình trực tiếp với chất lượng hình ảnh cao."
+      },
+      {
+        "type": "heading",
+        "text": "Chuẩn bị cho đấu trường châu lục"
+      },
+      {
+        "type": "paragraph",
+        "text": "Việc nâng cấp nằm trong kế hoạch dài hạn của câu lạc bộ nhằm chuẩn bị cho khả năng tham dự các giải đấu cấp châu lục trong những mùa giải tới."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ngoài hệ thống chiếu sáng, mặt cỏ và khu vực phòng thay đồ cũng được cải tạo đồng bộ."
+      }
+    ]
   },
   {
     "id": "n-006",
@@ -57,7 +178,29 @@
     "image": "/images/news/match-victory.jpg",
     "category": "first-team",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-07-06T21:00:00Z"
+    "publishedAt": "2026-07-06T21:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Thép Xanh Nam Định giành quyền vào bán kết Cúp Quốc gia 2026 sau chiến thắng trước đối thủ ở vòng tứ kết."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trận đấu diễn ra căng thẳng trong phần lớn thời gian, trước khi bàn thắng quyết định đến ở hiệp hai từ một tình huống cố định."
+      },
+      {
+        "type": "heading",
+        "text": "Mục tiêu cú đúp danh hiệu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Với việc đang dẫn đầu V.League và lọt vào bán kết Cúp Quốc gia, khả năng giành cú đúp danh hiệu trong cùng một mùa giải đang mở ra trước mắt đội bóng thành Nam."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ban huấn luyện tuy vậy vẫn giữ thái độ thận trọng, cho rằng chặng đường phía trước còn dài và mật độ thi đấu sẽ là thử thách lớn nhất."
+      }
+    ]
   },
   {
     "id": "n-007",
@@ -67,7 +210,25 @@
     "image": "/images/news/supporters.jpg",
     "category": "club",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-08-02T22:00:00Z"
+    "publishedAt": "2026-08-02T22:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Trận đấu giữa Thép Xanh Nam Định và Hải Phòng trên sân Thiên Trường đã thiết lập kỷ lục khán giả của mùa giải 2026 với 30.112 người vào sân."
+      },
+      {
+        "type": "paragraph",
+        "text": "Đây là con số cao nhất tại V.League tính đến thời điểm hiện tại, tiếp tục khẳng định vị thế của Thiên Trường như một trong những chảo lửa đúng nghĩa của bóng đá Việt Nam."
+      },
+      {
+        "type": "quote",
+        "text": "Không khí hôm nay giống như một trận chung kết. Các cầu thủ được tiếp thêm rất nhiều năng lượng từ khán đài."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ban tổ chức sân cho biết lượng vé đã bán hết từ trước ngày thi đấu hai hôm, và nhiều cổ động viên không có vé vẫn tập trung bên ngoài sân để cổ vũ."
+      }
+    ]
   },
   {
     "id": "n-008",
@@ -77,7 +238,29 @@
     "image": "/images/news/training.jpg",
     "category": "club",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-07-20T16:00:00Z"
+    "publishedAt": "2026-07-20T16:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Đội trẻ Thép Xanh Nam Định đã lên ngôi vô địch giải U19 Quốc gia 2026 sau trận chung kết đầy kịch tính."
+      },
+      {
+        "type": "paragraph",
+        "text": "Đây là danh hiệu quan trọng, khẳng định hiệu quả của công tác đào tạo trẻ mà câu lạc bộ đầu tư trong nhiều năm qua."
+      },
+      {
+        "type": "heading",
+        "text": "Nguồn kế cận cho đội một"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nhiều gương mặt trong đội hình vô địch đã được ban huấn luyện đội một theo dõi sát sao và có thể được đôn lên tập luyện cùng đội lớn trong thời gian tới."
+      },
+      {
+        "type": "paragraph",
+        "text": "Câu lạc bộ cho biết sẽ tiếp tục mở rộng hệ thống tuyển chọn cầu thủ trẻ trên địa bàn tỉnh Nam Định và các tỉnh lân cận."
+      }
+    ]
   },
   {
     "id": "n-009",
@@ -87,7 +270,30 @@
     "image": "/images/news/match-victory.jpg",
     "category": "v-league",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-08-09T22:30:00Z"
+    "publishedAt": "2026-08-09T22:30:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Vòng 19 V.League 2026 khép lại với chiến thắng 2-0 của Thép Xanh Nam Định trên sân Vinh trước Sông Lam Nghệ An, giúp đội bóng thành Nam củng cố vững chắc ngôi đầu bảng."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trong thế trận bị chủ nhà gây khó suốt hiệp một, Nam Định vẫn giành trọn 3 điểm nhờ hai bàn thắng trong 20 phút cuối trận."
+      },
+      {
+        "type": "heading",
+        "text": "Các kết quả đáng chú ý khác"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ở những trận đấu còn lại của vòng đấu, nhóm bám đuổi đều đánh rơi điểm, qua đó gián tiếp giúp khoảng cách trên bảng xếp hạng được nới rộng thêm."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sau 19 vòng, Nam Định vẫn là đội có hàng công mạnh nhất và hàng thủ chắc chắn thứ hai giải đấu."
+      }
+    ],
+    "relatedMatchId": "m-2026-r19"
   },
   {
     "id": "n-010",
@@ -97,6 +303,34 @@
     "image": "/images/news/training.jpg",
     "category": "interview",
     "author": "Ban Truyền thông CLB",
-    "publishedAt": "2026-08-15T11:00:00Z"
+    "publishedAt": "2026-08-15T11:00:00Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Tiền vệ Nguyễn Hai Long đã có một mùa giải bùng nổ trong màu áo Thép Xanh Nam Định. Trong cuộc trò chuyện với ban truyền thông câu lạc bộ, anh chia sẻ về mục tiêu cá nhân và tham vọng khoác áo đội tuyển quốc gia."
+      },
+      {
+        "type": "quote",
+        "text": "Mục tiêu của tôi là được khoác áo đội tuyển quốc gia. Nhưng trước hết tôi phải chơi tốt ở câu lạc bộ đã.",
+        "attribution": "Nguyễn Hai Long"
+      },
+      {
+        "type": "heading",
+        "text": "Về sự thay đổi trong lối chơi"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hai Long cho biết việc thi đấu cạnh Masatoshi Ishii đã giúp anh cải thiện đáng kể khả năng chọn vị trí và ra quyết định trong phạm vi hẹp."
+      },
+      {
+        "type": "paragraph",
+        "text": "Anh cũng thừa nhận áp lực từ khán đài Thiên Trường là điều phải mất thời gian để làm quen, nhưng giờ đây đó lại là động lực lớn nhất mỗi khi ra sân."
+      },
+      {
+        "type": "quote",
+        "text": "Chơi trước 30.000 người, bạn không được phép lười một giây nào.",
+        "attribution": "Nguyễn Hai Long"
+      }
+    ]
   }
 ]

@@ -1,2 +1,2 @@
 export { NewsList } from './components/NewsList';
-export { getNewsData } from './data';
+export { getNewsData, getArticleBySlug, getRelatedArticles } from './data';
