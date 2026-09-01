@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config/site';
 
 type Props = {
-  /** Absolute or site-relative URL of the page being shared. */
+  /** Absolute URL, or a site-relative path resolved against `siteConfig.url`. */
   url: string;
   title: string;
   className?: string;
@@ -42,11 +43,10 @@ export function ShareButtons({ url, title, className }: Props) {
   const t = useTranslations('common');
   const [copied, setCopied] = useState(false);
 
-  // Relative URLs need an origin before they can be shared.
-  const absoluteUrl =
-    url.startsWith('http') || typeof window === 'undefined'
-      ? url
-      : `${window.location.origin}${url}`;
+  // Built from the configured site URL rather than `window.location`, so the
+  // server and the client produce the same string (no hydration mismatch) and
+  // shared links always point at the real domain instead of localhost.
+  const absoluteUrl = url.startsWith('http') ? url : `${siteConfig.url}${url}`;
 
   async function copyLink() {
     try {

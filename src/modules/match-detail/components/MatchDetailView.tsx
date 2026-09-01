@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Match, MatchDetail } from '@/shared/types/match';
 import { Tabs, TabPanel, ShareButtons } from '@/shared/components/ui';
@@ -25,6 +25,7 @@ function EmptyState({ message }: { message: string }) {
 
 export function MatchDetailView({ match, detail }: Props) {
   const t = useTranslations('matches');
+  const locale = useLocale();
   const [tab, setTab] = useState('overview');
 
   const tabs = [
@@ -102,7 +103,7 @@ export function MatchDetailView({ match, detail }: Props) {
           </TabPanel>
 
           <div className="mt-8 pt-6 border-t border-[var(--border-color)]">
-            <ShareButtons url={`/matches/${match.id}`} title={title} />
+            <ShareButtons url={`/${locale}/matches/${match.id}`} title={title} />
           </div>
         </div>
 
