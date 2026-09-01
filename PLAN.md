@@ -10,6 +10,13 @@
 
 ## Tiến độ tổng quan (cập nhật 2026-09-01)
 
+> ⏸ **Tiếng Anh đang tạm tắt.** Khung i18n hoàn chỉnh (223 key khớp cả hai
+> locale) nhưng nội dung — tin tức, tường thuật trận, dữ liệu sân và lịch sử —
+> vẫn chỉ có tiếng Việt, nên bản `en` bị tạm dừng thay vì ra mắt nửa vời.
+> Toàn bộ file dịch `src/i18n/messages/en/` được **giữ nguyên**.
+> Bật lại: thêm `'en'` vào `locales` trong `src/i18n/config.ts`, rồi bỏ
+> redirect `/en → /vi` trong `next.config.ts`. Không cần sửa chỗ nào khác.
+
 | Phase | Nội dung | Trạng thái |
 |-------|----------|------------|
 | **0** | Project Setup & Design System | ✅ Hoàn thành |

@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { mainNav } from '@/config/navigation';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { isMultilingual } from '@/i18n/config';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileMenu } from './MobileMenu';
 
@@ -82,7 +83,7 @@ export function Header() {
             >
               <Search size={18} />
             </button>
-            <LanguageSwitcher />
+            {isMultilingual && <LanguageSwitcher />}
             <ThemeToggle />
           </div>
         </div>
