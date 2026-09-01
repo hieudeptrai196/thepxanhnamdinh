@@ -24,7 +24,7 @@
 | **3D** | Standings | ✅ Hoàn thành |
 | **4A** | News Center | ⚡ ~85% *(card đã bấm được; còn thiếu search + pagination)* |
 | **4B** | News Detail | ✅ Hoàn thành *(10/10 bài có nội dung đầy đủ)* |
-| **5** | Stadium & History | ❌ Chưa làm |
+| **5** | Stadium & History | ✅ Hoàn thành |
 | **6** | 404 + SEO + Polish | ⚡ 6A xong; còn SEO (6B) + QA (6C) |
 | **7** | WebSocket Live Match | ❌ Chưa làm |
 | **8** | API Contract | ✅ Đã ghi trong PLAN |
@@ -479,13 +479,15 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/stadium/`
 **Route:** `/[locale]/stadium`
 
-- [ ] **5A.1** Hero: Ảnh panoramic sân Thiên Trường + overlay + "THIÊN TRƯỜNG - THÁNH ĐỊA THÀNH NAM" Bebas Neue + CTA "Mua vé"
-- [ ] **5A.2** Stats row: StatCard — 25.000 (sức chứa), 2003 (năm khánh thành), biểu tượng V.League
-- [ ] **5A.3** "Trái Tim Bóng Đá Nam Định" section: editorial layout (text + ảnh sân) — lịch sử sân, thông tin kỹ thuật
-- [ ] **5A.4** Seating map: SVG flat diagram các khán đài (Đông A, Đông B, Tây, ...) — click vào section hiện thông tin. Theo DESIGN.md: KHÔNG 3D, KHÔNG perspective
-- [ ] **5A.5** "Không Khí Ngày Trận" gallery: matchday photos grid/masonry
-- [ ] **5A.6** Mock data: `mocks/stadium.json`
-- [ ] **5A.7** i18n: `stadium.json`
+- [x] **5A.1** Hero: Ảnh panoramic sân Thiên Trường + overlay + "THIÊN TRƯỜNG - THÁNH ĐỊA THÀNH NAM" Bebas Neue + CTA "Mua vé"
+- [x] **5A.2** Stats row: StatCard — **30.000** (sức chứa), 2003 (năm khánh thành), 3 danh hiệu V.League
+  - ⚠ PLAN ghi 25.000 nhưng `club.json`, `ClubStats` và `ClubStadium` đều ghi 30.000 → dùng 30.000 cho nhất quán
+- [x] **5A.3** "Trái Tim Bóng Đá Nam Định" section: editorial layout (text + ảnh sân) — lịch sử sân, thông tin kỹ thuật
+- [x] **5A.4** Seating map: SVG flat diagram các khán đài (Đông A, Đông B, Tây, ...) — click vào section hiện thông tin. Theo DESIGN.md: KHÔNG 3D, KHÔNG perspective
+- [x] **5A.5** "Không Khí Ngày Trận" gallery: grid tự co theo số ảnh
+  - ⚠ Chỉ có **2 ảnh thật** (`sanvandong.webp` + banner đội hình). Toàn bộ `public/images/news/*.jpg` là ảnh giả 2.3KB màu đặc → cần ảnh matchday thật
+- [x] **5A.6** Mock data: `mocks/stadium.json`
+- [x] **5A.7** i18n: `stadium.json` (vi + en)
 
 ### 5B — History & Honours (Lịch sử & Thành tích)
 
@@ -493,14 +495,16 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/history/`
 **Route:** `/[locale]/history`
 
-- [ ] **5B.1** Hero: Heritage photography (desaturated/B&W) + title
-- [ ] **5B.2** Timeline: Các mốc lịch sử quan trọng — year numbers lớn Bebas Neue as graphic elements
-- [ ] **5B.3** Championship years: 1965, 1984, 1985 — oversized numbers + Gold (#C3A044) stars. Đây là CHỖ DUY NHẤT dùng màu vàng
-- [ ] **5B.4** Honours list: Danh hiệu theo thời gian
-- [ ] **5B.5** Historical photos: grayscale(0.85) + grain 2-3%
-- [ ] **5B.6** Paper/concrete texture tại sections phù hợp (5-8% opacity)
-- [ ] **5B.7** Mock data: `mocks/history.json`
-- [ ] **5B.8** i18n: `history.json`
+- [x] **5B.1** Hero: ảnh đội hình + cúp tại Thiên Trường, `grayscale(0.85)` + grain
+- [x] **5B.2** Timeline: Các mốc lịch sử quan trọng — year numbers lớn Bebas Neue as graphic elements
+- [x] **5B.3** Championship years: **1985, 2024, 2025** — oversized numbers + Gold (#C3A044) stars. Đây là CHỖ DUY NHẤT dùng màu vàng
+  - ⚠ PLAN/DESIGN.md ghi `1965, 1984, 1985`, nhưng dữ liệu trong code (`ClubTrophies`, `ClubTimeline`, `statTitles: 3`) là 1985 / 2023-24 / 2024-25. 1965 là năm thành lập, không phải danh hiệu → dùng theo dữ liệu code
+  - Đã kiểm tra: gold chỉ xuất hiện 3 lần, duy nhất ở trang History
+- [x] **5B.4** Honours list: Danh hiệu theo thời gian
+- [x] **5B.5** Historical photos: grayscale(0.85) + grain
+- [x] **5B.6** Texture grain ở hero (dùng lại `.loading-grain`)
+- [x] **5B.7** Mock data: `mocks/history.json`
+- [x] **5B.8** i18n: `history.json` (vi + en)
 
 ---
 

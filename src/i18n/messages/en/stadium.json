@@ -1,0 +1,23 @@
+{
+  "stadium": {
+    "title": "Thiên Trường Stadium",
+    "heroTitle": "Thiên Trường",
+    "heroSubtitle": "The Fortress of Thành Nam",
+    "buyTickets": "Buy Tickets",
+    "capacity": "Capacity",
+    "opened": "Opened",
+    "titlesWon": "V.League Titles",
+    "storyTitle": "The Heart of Nam Định Football",
+    "storyP1": "Thiên Trường Stadium sits in the centre of Nam Định city. Rebuilt from 2000 and inaugurated on 30 August 2003, it has witnessed every high and low of football in Thành Nam for over two decades.",
+    "storyP2": "What made Thiên Trường's name is not its architecture but its people. On matchdays the whole city comes. Thirty thousand seats fill up, the drums roll from Stand C, and visiting teams openly admit it is among the hardest places to play in Vietnam.",
+    "specs": "Technical specifications",
+    "pitchSize": "Pitch size",
+    "surface": "Surface",
+    "address": "Address",
+    "floodlights": "Floodlights",
+    "mapTitle": "Seating map",
+    "mapHint": "Select a stand to see its details.",
+    "seats": "seats",
+    "galleryTitle": "Matchday atmosphere"
+  }
+}

@@ -10,4 +10,6 @@ export const mainNav: NavItem[] = [
   { key: 'standings', href: '/standings' },
   { key: 'news', href: '/news' },
   { key: 'club', href: '/club' },
+  { key: 'stadium', href: '/stadium' },
+  { key: 'history', href: '/history' },
 ];

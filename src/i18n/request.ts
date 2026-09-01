@@ -18,6 +18,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...(await import(`./messages/${locale}/standings.json`)).default,
       ...(await import(`./messages/${locale}/news.json`)).default,
       ...(await import(`./messages/${locale}/club.json`)).default,
+      ...(await import(`./messages/${locale}/stadium.json`)).default,
+      ...(await import(`./messages/${locale}/history.json`)).default,
     },
   };
 });

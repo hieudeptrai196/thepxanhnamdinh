@@ -1,0 +1,23 @@
+{
+  "stadium": {
+    "title": "Sân Thiên Trường",
+    "heroTitle": "Thiên Trường",
+    "heroSubtitle": "Thánh địa Thành Nam",
+    "buyTickets": "Mua vé",
+    "capacity": "Sức chứa",
+    "opened": "Năm khánh thành",
+    "titlesWon": "Danh hiệu V.League",
+    "storyTitle": "Trái tim bóng đá Nam Định",
+    "storyP1": "Sân vận động Thiên Trường nằm giữa lòng thành phố Nam Định, được xây dựng lại từ năm 2000 và khánh thành ngày 30 tháng 8 năm 2003. Hơn hai thập kỷ qua, đây là nơi chứng kiến mọi thăng trầm của bóng đá thành Nam.",
+    "storyP2": "Điều làm nên tên tuổi của Thiên Trường không phải kiến trúc, mà là con người. Những ngày cuối tuần có trận, cả thành phố đổ về đây. Ba mươi nghìn chỗ ngồi kín đặc, tiếng trống vang từ khán đài C, và một bầu không khí mà các đội khách đều thừa nhận là khó chơi bậc nhất Việt Nam.",
+    "specs": "Thông số kỹ thuật",
+    "pitchSize": "Kích thước sân",
+    "surface": "Mặt sân",
+    "address": "Địa chỉ",
+    "floodlights": "Hệ thống chiếu sáng",
+    "mapTitle": "Sơ đồ khán đài",
+    "mapHint": "Chọn một khán đài để xem thông tin chi tiết.",
+    "seats": "chỗ ngồi",
+    "galleryTitle": "Không khí ngày trận"
+  }
+}

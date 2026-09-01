@@ -1,0 +1,21 @@
+{
+  "championships": [
+    { "year": "1985", "competition": "Giải A1 toàn quốc", "note": "Mùa giải bất bại" },
+    { "year": "2024", "competition": "V.League 1", "note": "Sau 39 năm chờ đợi" },
+    { "year": "2025", "competition": "V.League 1", "note": "Bảo vệ thành công ngôi vương" }
+  ],
+  "milestones": [
+    { "year": "1965", "title": "Thành lập câu lạc bộ", "description": "Đội bóng ra đời với tên gọi Thanh niên Nam Hà, khởi đầu cho hơn sáu thập kỷ lịch sử." },
+    { "year": "1985", "title": "Vô địch quốc gia", "description": "Vô địch giải A1 toàn quốc với một mùa giải bất bại — kỳ tích mà chỉ hai câu lạc bộ Việt Nam từng làm được." },
+    { "year": "1997", "title": "Mang tên thành phố", "description": "Câu lạc bộ chính thức mang tên Nam Định sau nhiều lần đổi tên theo các thời kỳ." },
+    { "year": "2017", "title": "Trở lại V.League 1", "description": "Vô địch hạng Nhất và giành quyền thăng hạng sau sáu năm vắng bóng ở giải đấu cao nhất." },
+    { "year": "2022", "title": "Đăng cai SEA Games 31", "description": "Thiên Trường được đầu tư nâng cấp và vinh dự tổ chức bảng đấu bóng đá nam SEA Games 31." },
+    { "year": "2024", "title": "Vô địch V.League 1", "description": "Đăng quang sau 39 năm chờ đợi, khép lại mùa giải bằng chiến thắng 5-1 trước Khánh Hoà." },
+    { "year": "2025", "title": "Bảo vệ ngôi vương", "description": "Trở thành nhà vô địch V.League 1 hai mùa liên tiếp." }
+  ],
+  "honours": [
+    { "competition": "V.League 1", "count": 3, "years": ["1985", "2024", "2025"] },
+    { "competition": "V.League 2 (hạng Nhất)", "count": 1, "years": ["2017"] },
+    { "competition": "Cúp Quốc gia", "count": 1, "years": ["2007"] }
+  ]
+}

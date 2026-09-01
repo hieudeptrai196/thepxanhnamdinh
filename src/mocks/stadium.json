@@ -1,0 +1,49 @@
+{
+  "name": "Sân vận động Thiên Trường",
+  "nickname": "Thánh địa Thành Nam",
+  "capacity": 30000,
+  "opened": 2003,
+  "rebuilt": 2000,
+  "inaugurated": "2003-08-30",
+  "pitchSize": "115 × 72 m",
+  "surface": "Cỏ tự nhiên",
+  "address": "Đường Đặng Xuân Bảng, TP. Nam Định",
+  "floodlights": "LED, đạt chuẩn AFC Champions League",
+  "ticketUrl": "https://ticketbox.vn",
+  "stands": [
+    {
+      "id": "west",
+      "name": "Khán đài A (Tây)",
+      "capacity": 8000,
+      "description": "Khán đài chính có mái che, nơi đặt khu VIP, phòng thay đồ và khu vực báo chí."
+    },
+    {
+      "id": "east",
+      "name": "Khán đài B (Đông)",
+      "capacity": 8000,
+      "description": "Đối diện khán đài A, tầm nhìn trọn vẹn toàn sân, có mái che một phần."
+    },
+    {
+      "id": "north",
+      "name": "Khán đài C (Bắc)",
+      "capacity": 7000,
+      "description": "Nơi tập trung của hội cổ động viên Thành Nam — trung tâm của trống, kèn và tifo."
+    },
+    {
+      "id": "south",
+      "name": "Khán đài D (Nam)",
+      "capacity": 7000,
+      "description": "Khu vực dành cho cổ động viên đội khách và khán giả gia đình."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/images/stadium/sanvandong.webp",
+      "caption": "Thiên Trường nhìn từ trên cao"
+    },
+    {
+      "image": "/images/common/banners/642413932_1576185250716022_4649655387200941555_n.jpg",
+      "caption": "Đội hình mùa giải 2025/26 cùng các danh hiệu"
+    }
+  ]
+}
