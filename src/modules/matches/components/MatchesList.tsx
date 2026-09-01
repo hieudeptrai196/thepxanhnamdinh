@@ -158,7 +158,7 @@ export function MatchesList({ matches }: Props) {
                 {/* 1px dividers between rows — no individual cards */}
                 <div className="flex flex-col divide-y divide-[var(--border-color)] border-y border-[var(--border-color)]">
                   {group.matches.map((match) => (
-                    <MatchRow key={match.id} match={match} />
+                    <MatchRow key={match.id} match={match} href={`/matches/${match.id}`} />
                   ))}
                 </div>
               </section>

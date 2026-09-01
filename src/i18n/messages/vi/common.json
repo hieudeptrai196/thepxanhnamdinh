@@ -33,7 +33,10 @@
     "loading": "Đang tải...",
     "noResults": "Không có kết quả",
     "error404": "Trang không tìm thấy",
-    "error404Desc": "Trang bạn tìm không tồn tại hoặc đã được di chuyển."
+    "error404Desc": "Trang bạn tìm không tồn tại hoặc đã được di chuyển.",
+    "share": "Chia sẻ",
+    "copyLink": "Sao chép liên kết",
+    "copied": "Đã sao chép"
   },
   "language": {
     "vi": "Tiếng Việt",

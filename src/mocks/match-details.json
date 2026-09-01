@@ -1,0 +1,258 @@
+[
+  {
+    "matchId": "m-2026-r20",
+    "recap": {
+      "title": "Rafaelson lập hat-trick, Nam Định hạ CAHN ngay tại Hàng Đẫy",
+      "body": [
+        "Thép Xanh Nam Định có chuyến làm khách khó khăn trên sân Hàng Đẫy, nhưng chính Rafaelson là người biến trận đấu thành màn trình diễn cá nhân. Tiền đạo người Brazil hoàn tất cú hat-trick chỉ trong vòng 63 phút, giúp đội khách thắng 3-1.",
+        "Chủ nhà mở tỉ số ở phút 12 sau một pha phản công nhanh, nhưng Nam Định gỡ hoà chỉ 9 phút sau đó. Hai bàn còn lại của Rafaelson đến ở hiệp hai, khi hàng thủ CAHN đã xuống sức rõ rệt.",
+        "Kết quả này giúp Nam Định giữ vững ngôi đầu bảng và nới rộng khoảng cách trước nhóm bám đuổi."
+      ],
+      "image": "/images/news/match-victory.jpg"
+    },
+    "referee": "Ngô Duy Lân",
+    "attendance": 18500,
+    "form": {
+      "home": ["W", "L", "D", "W", "L"],
+      "away": ["W", "W", "W", "D", "W"]
+    },
+    "lineups": {
+      "home": {
+        "formation": "4-2-3-1",
+        "starting": [
+          { "number": 1, "name": "Nguyễn Filip", "role": "Thủ môn" },
+          { "number": 2, "name": "Vũ Văn Thanh", "role": "Hậu vệ" },
+          { "number": 4, "name": "Bùi Hoàng Việt Anh", "role": "Hậu vệ" },
+          { "number": 5, "name": "Nguyễn Thành Chung", "role": "Hậu vệ" },
+          { "number": 3, "name": "Lê Văn Xuân", "role": "Hậu vệ" },
+          { "number": 6, "name": "Nguyễn Quang Hải", "role": "Tiền vệ" },
+          { "number": 8, "name": "Đoàn Văn Hậu", "role": "Tiền vệ" },
+          { "number": 10, "name": "Phạm Tuấn Hải", "role": "Tiền vệ" },
+          { "number": 7, "name": "Nguyễn Văn Quyết", "role": "Tiền vệ" },
+          { "number": 11, "name": "Lê Thanh Bình", "role": "Tiền vệ" },
+          { "number": 9, "name": "Alan Sebastião", "role": "Tiền đạo" }
+        ],
+        "substitutes": [
+          { "number": 22, "name": "Trần Trung Kiên", "role": "Thủ môn" },
+          { "number": 15, "name": "Đặng Văn Tới", "role": "Hậu vệ" },
+          { "number": 18, "name": "Nguyễn Hữu Thắng", "role": "Tiền vệ" },
+          { "number": 19, "name": "Trần Bảo Toàn", "role": "Tiền vệ" },
+          { "number": 20, "name": "Lê Xuân Tú", "role": "Tiền đạo" }
+        ]
+      },
+      "away": {
+        "formation": "4-3-3",
+        "starting": [
+          { "number": 1, "name": "Nguyễn Văn Hoàng", "role": "Thủ môn" },
+          { "number": 2, "name": "Lê Văn Đại", "role": "Hậu vệ" },
+          { "number": 3, "name": "Phạm Mạnh Hùng", "role": "Hậu vệ" },
+          { "number": 15, "name": "Rodrigo Dias", "role": "Hậu vệ" },
+          { "number": 4, "name": "Trần Văn Kiên", "role": "Hậu vệ" },
+          { "number": 8, "name": "Lê Sỹ Minh", "role": "Tiền vệ" },
+          { "number": 17, "name": "Masatoshi Ishii", "role": "Tiền vệ" },
+          { "number": 14, "name": "Nguyễn Hai Long", "role": "Tiền vệ" },
+          { "number": 11, "name": "Nguyễn Văn Toàn", "role": "Tiền đạo" },
+          { "number": 9, "name": "Rafaelson Bezerra", "role": "Tiền đạo" },
+          { "number": 7, "name": "Nguyễn Xuân Nam", "role": "Tiền đạo" }
+        ],
+        "substitutes": [
+          { "number": 25, "name": "Trần Nguyên Mạnh", "role": "Thủ môn" },
+          { "number": 5, "name": "Nguyễn Thanh Bình", "role": "Hậu vệ" },
+          { "number": 6, "name": "Nguyễn Phong Hồng Duy", "role": "Tiền vệ" },
+          { "number": 20, "name": "Phạm Đức Huy", "role": "Tiền vệ" },
+          { "number": 10, "name": "Đỗ Merlo", "role": "Tiền đạo" }
+        ]
+      }
+    },
+    "stats": [
+      { "key": "possession", "home": 54, "away": 46, "unit": "percent" },
+      { "key": "shots", "home": 11, "away": 15 },
+      { "key": "shotsOnTarget", "home": 3, "away": 8 },
+      { "key": "corners", "home": 5, "away": 6 },
+      { "key": "fouls", "home": 14, "away": 10 },
+      { "key": "offsides", "home": 3, "away": 1 },
+      { "key": "yellowCards", "home": 3, "away": 1 },
+      { "key": "saves", "home": 5, "away": 2 },
+      { "key": "passAccuracy", "home": 81, "away": 85, "unit": "percent" }
+    ],
+    "broadcast": {
+      "channels": ["FPT Play", "VTV5", "ON Football"],
+      "streaming": ["fptplay.vn", "VTVgo"],
+      "commentary": "Bình luận: Quang Huy — Vũ Quang Huy"
+    }
+  },
+  {
+    "matchId": "m-2026-r19",
+    "recap": {
+      "title": "Chiến thắng nhọc nhằn của Nam Định trên sân Vinh",
+      "body": [
+        "Trong thế trận bị SLNA gây khó suốt hiệp một, Thép Xanh Nam Định vẫn giành trọn 3 điểm nhờ hai bàn thắng trong 20 phút cuối trận.",
+        "Hai Long là người mở tỉ số ở phút 71 sau đường chuyền của Ishii, trước khi Văn Toàn ấn định tỉ số 2-0 ở phút bù giờ thứ hai."
+      ],
+      "image": "/images/news/training.jpg"
+    },
+    "referee": "Trương Hồng Vũ",
+    "attendance": 12000,
+    "form": {
+      "home": ["L", "D", "L", "W", "D"],
+      "away": ["W", "W", "D", "W", "W"]
+    },
+    "lineups": {
+      "home": {
+        "formation": "5-3-2",
+        "starting": [
+          { "number": 1, "name": "Nguyễn Văn Việt", "role": "Thủ môn" },
+          { "number": 2, "name": "Hồ Văn Cường", "role": "Hậu vệ" },
+          { "number": 4, "name": "Nguyễn Văn Bách", "role": "Hậu vệ" },
+          { "number": 5, "name": "Trần Đình Hoàng", "role": "Hậu vệ" },
+          { "number": 3, "name": "Lê Nguyên Hoàng", "role": "Hậu vệ" },
+          { "number": 6, "name": "Phan Bá Quyền", "role": "Hậu vệ" },
+          { "number": 8, "name": "Trần Nam Hải", "role": "Tiền vệ" },
+          { "number": 10, "name": "Đinh Xuân Tiến", "role": "Tiền vệ" },
+          { "number": 7, "name": "Nguyễn Xuân Bình", "role": "Tiền vệ" },
+          { "number": 9, "name": "Michael Olaha", "role": "Tiền đạo" },
+          { "number": 11, "name": "Hồ Khắc Ngọc", "role": "Tiền đạo" }
+        ],
+        "substitutes": [
+          { "number": 22, "name": "Phan Đình Vũ Hải", "role": "Thủ môn" },
+          { "number": 15, "name": "Nguyễn Văn Vĩ", "role": "Hậu vệ" },
+          { "number": 18, "name": "Phạm Mạnh Hùng", "role": "Tiền vệ" },
+          { "number": 20, "name": "Trần Mạnh Quỳnh", "role": "Tiền đạo" }
+        ]
+      },
+      "away": {
+        "formation": "4-3-3",
+        "starting": [
+          { "number": 1, "name": "Nguyễn Văn Hoàng", "role": "Thủ môn" },
+          { "number": 2, "name": "Lê Văn Đại", "role": "Hậu vệ" },
+          { "number": 3, "name": "Phạm Mạnh Hùng", "role": "Hậu vệ" },
+          { "number": 5, "name": "Nguyễn Thanh Bình", "role": "Hậu vệ" },
+          { "number": 4, "name": "Trần Văn Kiên", "role": "Hậu vệ" },
+          { "number": 20, "name": "Phạm Đức Huy", "role": "Tiền vệ" },
+          { "number": 17, "name": "Masatoshi Ishii", "role": "Tiền vệ" },
+          { "number": 14, "name": "Nguyễn Hai Long", "role": "Tiền vệ" },
+          { "number": 7, "name": "Nguyễn Xuân Nam", "role": "Tiền đạo" },
+          { "number": 9, "name": "Rafaelson Bezerra", "role": "Tiền đạo" },
+          { "number": 11, "name": "Nguyễn Văn Toàn", "role": "Tiền đạo" }
+        ],
+        "substitutes": [
+          { "number": 25, "name": "Trần Nguyên Mạnh", "role": "Thủ môn" },
+          { "number": 15, "name": "Rodrigo Dias", "role": "Hậu vệ" },
+          { "number": 8, "name": "Lê Sỹ Minh", "role": "Tiền vệ" },
+          { "number": 6, "name": "Nguyễn Phong Hồng Duy", "role": "Tiền vệ" },
+          { "number": 10, "name": "Đỗ Merlo", "role": "Tiền đạo" }
+        ]
+      }
+    },
+    "stats": [
+      { "key": "possession", "home": 44, "away": 56, "unit": "percent" },
+      { "key": "shots", "home": 9, "away": 13 },
+      { "key": "shotsOnTarget", "home": 2, "away": 6 },
+      { "key": "corners", "home": 3, "away": 7 },
+      { "key": "fouls", "home": 16, "away": 11 },
+      { "key": "offsides", "home": 2, "away": 2 },
+      { "key": "yellowCards", "home": 4, "away": 2 },
+      { "key": "saves", "home": 4, "away": 2 },
+      { "key": "passAccuracy", "home": 76, "away": 84, "unit": "percent" }
+    ],
+    "broadcast": {
+      "channels": ["FPT Play", "ON Sports"],
+      "streaming": ["fptplay.vn"],
+      "commentary": "Bình luận: Ngọc Trung"
+    }
+  },
+  {
+    "matchId": "m-2026-r18",
+    "recap": {
+      "title": "Thiên Trường bùng nổ, Nam Định thắng đậm Hải Phòng 3-1",
+      "body": [
+        "Hơn 30.000 khán giả phủ kín Thiên Trường đã được chứng kiến một trong những màn trình diễn tấn công hay nhất mùa của Thép Xanh Nam Định.",
+        "Merlo mở tỉ số ngay phút thứ 8, Rafaelson nhân đôi cách biệt trước giờ nghỉ. Hải Phòng rút ngắn ở phút 58 nhưng Xuân Nam lập tức khép lại hi vọng của đội khách chỉ 4 phút sau đó."
+      ],
+      "image": "/images/news/match-victory.jpg"
+    },
+    "referee": "Nguyễn Mạnh Hải",
+    "attendance": 30112,
+    "form": {
+      "home": ["W", "D", "W", "W", "L"],
+      "away": ["D", "L", "W", "L", "D"]
+    },
+    "lineups": {
+      "home": {
+        "formation": "4-3-3",
+        "starting": [
+          { "number": 1, "name": "Nguyễn Văn Hoàng", "role": "Thủ môn" },
+          { "number": 2, "name": "Lê Văn Đại", "role": "Hậu vệ" },
+          { "number": 3, "name": "Phạm Mạnh Hùng", "role": "Hậu vệ" },
+          { "number": 15, "name": "Rodrigo Dias", "role": "Hậu vệ" },
+          { "number": 4, "name": "Trần Văn Kiên", "role": "Hậu vệ" },
+          { "number": 8, "name": "Lê Sỹ Minh", "role": "Tiền vệ" },
+          { "number": 17, "name": "Masatoshi Ishii", "role": "Tiền vệ" },
+          { "number": 14, "name": "Nguyễn Hai Long", "role": "Tiền vệ" },
+          { "number": 7, "name": "Nguyễn Xuân Nam", "role": "Tiền đạo" },
+          { "number": 10, "name": "Đỗ Merlo", "role": "Tiền đạo" },
+          { "number": 9, "name": "Rafaelson Bezerra", "role": "Tiền đạo" }
+        ],
+        "substitutes": [
+          { "number": 25, "name": "Trần Nguyên Mạnh", "role": "Thủ môn" },
+          { "number": 5, "name": "Nguyễn Thanh Bình", "role": "Hậu vệ" },
+          { "number": 6, "name": "Nguyễn Phong Hồng Duy", "role": "Tiền vệ" },
+          { "number": 20, "name": "Phạm Đức Huy", "role": "Tiền vệ" },
+          { "number": 11, "name": "Nguyễn Văn Toàn", "role": "Tiền đạo" }
+        ]
+      },
+      "away": {
+        "formation": "4-4-2",
+        "starting": [
+          { "number": 1, "name": "Nguyễn Đình Triệu", "role": "Thủ môn" },
+          { "number": 2, "name": "Nguyễn Phúc Thịnh", "role": "Hậu vệ" },
+          { "number": 4, "name": "Adriano Schmidt", "role": "Hậu vệ" },
+          { "number": 5, "name": "Nguyễn Hải Huy", "role": "Hậu vệ" },
+          { "number": 3, "name": "Trần Đình Khương", "role": "Hậu vệ" },
+          { "number": 7, "name": "Triệu Việt Hưng", "role": "Tiền vệ" },
+          { "number": 8, "name": "Nguyễn Văn Việt", "role": "Tiền vệ" },
+          { "number": 6, "name": "Lucao do Break", "role": "Tiền vệ" },
+          { "number": 11, "name": "Nguyễn Trung Đại Dương", "role": "Tiền vệ" },
+          { "number": 9, "name": "Joseph Mpande", "role": "Tiền đạo" },
+          { "number": 10, "name": "Phạm Trung Hiếu", "role": "Tiền đạo" }
+        ],
+        "substitutes": [
+          { "number": 22, "name": "Nguyễn Văn Toản", "role": "Thủ môn" },
+          { "number": 15, "name": "Vũ Ngọc Thịnh", "role": "Hậu vệ" },
+          { "number": 18, "name": "Đặng Văn Tới", "role": "Tiền vệ" },
+          { "number": 20, "name": "Nguyễn Hữu Sơn", "role": "Tiền đạo" }
+        ]
+      }
+    },
+    "stats": [
+      { "key": "possession", "home": 58, "away": 42, "unit": "percent" },
+      { "key": "shots", "home": 17, "away": 8 },
+      { "key": "shotsOnTarget", "home": 9, "away": 3 },
+      { "key": "corners", "home": 8, "away": 2 },
+      { "key": "fouls", "home": 9, "away": 15 },
+      { "key": "offsides", "home": 1, "away": 4 },
+      { "key": "yellowCards", "home": 1, "away": 3 },
+      { "key": "saves", "home": 2, "away": 6 },
+      { "key": "passAccuracy", "home": 87, "away": 78, "unit": "percent" }
+    ],
+    "broadcast": {
+      "channels": ["FPT Play", "VTV5"],
+      "streaming": ["fptplay.vn", "VTVgo"],
+      "commentary": "Bình luận: Vũ Quang Huy"
+    }
+  },
+  {
+    "matchId": "m-2026-r21",
+    "referee": "Hoàng Ngọc Hà",
+    "ticketUrl": "https://ticketbox.vn",
+    "form": {
+      "home": ["W", "W", "W", "D", "W"],
+      "away": ["D", "L", "W", "D", "L"]
+    },
+    "broadcast": {
+      "channels": ["FPT Play", "VTV5", "ON Football"],
+      "streaming": ["fptplay.vn", "VTVgo"],
+      "commentary": "Bình luận: Quang Tùng"
+    }
+  }
+]

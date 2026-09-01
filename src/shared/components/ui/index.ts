@@ -5,3 +5,5 @@ export { Skeleton } from './Skeleton';
 export { ContentLoader } from './ContentLoader';
 export { SectionHeader } from './SectionHeader';
 export { LazyMount } from './LazyMount';
+export { Tabs, TabPanel } from './Tabs';
+export { ShareButtons } from './ShareButtons';

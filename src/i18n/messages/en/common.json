@@ -33,7 +33,10 @@
     "loading": "Loading...",
     "noResults": "No results found",
     "error404": "Page Not Found",
-    "error404Desc": "The page you are looking for does not exist or has been moved."
+    "error404Desc": "The page you are looking for does not exist or has been moved.",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "copied": "Copied"
   },
   "language": {
     "vi": "Tiếng Việt",

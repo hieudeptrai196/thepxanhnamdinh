@@ -18,9 +18,9 @@
 | **2A** | Club Overview | ✅ Hoàn thành *(nâng cấp: parallax, 3D tilt, timeline drawing, Ken Burns, FB embed, Google Maps)* |
 | **2B** | Squad Page | ✅ Hoàn thành |
 | **2C** | Player Profile | ✅ Hoàn thành |
-| **3A** | Fixtures (Matches) | ⚡ ~90% *(đã chuyển sang rows + group theo tháng; còn click → detail, chờ 3C)* |
+| **3A** | Fixtures (Matches) | ✅ Hoàn thành |
 | **3B** | Results Archive | ⚡ Gộp vào 3A *(matches page có filter finished)* |
-| **3C** | Match Detail | ❌ Chưa làm |
+| **3C** | Match Detail | ✅ Hoàn thành *(data đầy đủ cho 3 trận gần nhất + trận kế; còn lại hiện empty state)* |
 | **3D** | Standings | ✅ Hoàn thành |
 | **4A** | News Center | ⚡ ~80% *(simplified — không có search, category filter, pagination)* |
 | **4B** | News Detail | ❌ Chưa làm |
@@ -372,7 +372,7 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 - [x] **3A.3** Match cards: date, đội nhà vs đội khách, tỉ số, sân, badge trạng thái
 - [x] **3A.4** KHÔNG dùng individual cards — dùng 1px dividers giữa rows
 - [x] **3A.5** Mobile: simplified rows, swipe giữa tháng *(scroll-snap lane + month switcher)*
-- [ ] **3A.6** Click row → navigate to `/matches/[matchId]` *(`MatchRow` đã có prop `href`, nối khi xong 3C)*
+- [x] **3A.6** Click row → navigate to `/matches/[matchId]`
 - [x] **3A.7** Mock data: `mocks/matches.json` (upcoming + finished matches)
 - [x] **3A.8** i18n: `matches.json` (vi + en)
 
@@ -395,17 +395,17 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 **Module:** `modules/match-detail/`
 **Route:** `/[locale]/matches/[matchId]`
 
-- [ ] **3C.1** Scoreboard header: Dark Navy, ảnh sân background, 2 team crests lớn + VS/score Bebas Neue, ngày giờ JetBrains Mono, địa điểm
-- [ ] **3C.2** Tabs: Tổng quan | Đội hình | Thống kê | Truyền hình (Archivo Condensed, active = 2px bottom border Club Blue)
-- [ ] **3C.3** Tab Tổng quan: bài recap + ảnh hành động
-- [ ] **3C.4** Tab Đội hình: 2 column lineup (home/away)
-- [ ] **3C.5** Tab Thống kê: Possession, shots, fouls... bar comparison
-- [ ] **3C.6** Tab Truyền hình: thông tin kênh phát sóng
-- [ ] **3C.7** Sidebar: "Mua vé" CTA card (link external, configurable) + Match info (Giải đấu, Vòng, Trọng tài, Sân)
-- [ ] **3C.8** Phong độ 5 trận gần nhất (2 đội)
-- [ ] **3C.9** ShareButtons
-- [ ] **3C.10** Mock data: extend `mocks/matches.json` với detail
-- [ ] **3C.11** i18n: thêm vào `matches.json`
+- [x] **3C.1** Scoreboard header: Dark Navy, ảnh sân background, 2 team crests lớn + VS/score Bebas Neue, ngày giờ JetBrains Mono, địa điểm
+- [x] **3C.2** Tabs: Tổng quan | Đội hình | Thống kê | Truyền hình (Archivo Condensed, active = 2px bottom border Club Blue)
+- [x] **3C.3** Tab Tổng quan: bài recap + ảnh hành động
+- [x] **3C.4** Tab Đội hình: 2 column lineup (home/away)
+- [x] **3C.5** Tab Thống kê: Possession, shots, fouls... bar comparison
+- [x] **3C.6** Tab Truyền hình: thông tin kênh phát sóng
+- [x] **3C.7** Sidebar: "Mua vé" CTA card (link external, configurable) + Match info (Giải đấu, Vòng, Trọng tài, Sân)
+- [x] **3C.8** Phong độ 5 trận gần nhất (2 đội)
+- [x] **3C.9** ShareButtons
+- [x] **3C.10** Mock data: `mocks/match-details.json` *(file riêng, key theo `matchId`; đủ data cho r18/r19/r20 + r21, trận khác hiện empty state)*
+- [x] **3C.11** i18n: thêm vào `matches.json`
 
 ### 3D — Standings (Bảng xếp hạng)
 
@@ -427,8 +427,8 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 - [x] `StandingsTable` *(full version trong modules/standings)*
 - [x] `MatchRow` *(shared/components/match — grid row + 1px dividers)*
 - [x] `MatchBadge`
-- [ ] `ShareButtons`
-- [ ] Tab component (for Match Detail)
+- [x] `ShareButtons`
+- [x] Tab component (for Match Detail) *(`shared/components/ui/Tabs.tsx`)*
 
 ---
 

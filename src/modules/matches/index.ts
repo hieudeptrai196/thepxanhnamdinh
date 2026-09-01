@@ -1,2 +1,2 @@
 export { MatchesList } from './components/MatchesList';
-export { getMatchesData } from './data';
+export { getMatchesData, getMatchById } from './data';
