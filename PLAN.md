@@ -567,9 +567,11 @@ Từ phân tích UI, các components sau xuất hiện ở nhiều screens:
 
 ---
 
-## PHASE 8 — API Contract (Cho Backend NestJS)
+## PHASE 8 — API Contract (Cho Backend Java Spring Boot)
 
 > Danh sách tất cả API endpoints mà FE cần. BE sẽ implement theo contract này.
+> **Bản chi tiết — schema CSDL, phân giai đoạn, kế hoạch nối FE — nằm ở `be/PLAN.md`.**
+> Backend dùng **Java 21 + Spring Boot 3.5 + PostgreSQL** (trước đây dự kiến NestJS).
 
 ### Auth & Config
 
